@@ -3,10 +3,10 @@ import Card from "react-bootstrap/Card";
 import "./EthicsCard.css";
 
 const EthicsCard = props => {
-  const imgStyle = {
-    height: `${props.height}`,
-    width: `${props.width}`
-  };
+  //   const imgStyle = {
+  //     height: `${props.height}`,
+  //     width: `${props.width}`
+  //   };
 
   return (
     <Card className="ethics-card-container">
@@ -17,7 +17,7 @@ const EthicsCard = props => {
             variant="bottom"
             className="img-container"
             src={props.image}
-            style={imgStyle}
+            // style={imgStyle}
           />
         </div>
       </Card.Body>

@@ -17,3 +17,8 @@
   text-align: center;
   height: 50%;
 }
+
+.img-container {
+  height: 100%;
+  width: 60%;
+}
