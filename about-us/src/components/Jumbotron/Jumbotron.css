@@ -1,0 +1,27 @@
+.jumbotron-container {
+  font-family: "Roboto";
+  background: #f7f7ff;
+  margin-bottom: -32px;
+}
+
+.about-word {
+  color: #2db4b4;
+  font-weight: 600;
+}
+
+.jumbotron-title {
+  line-height: 1.2;
+  font-weight: 550;
+  font-size: 2.2em;
+}
+
+.jumbotron-blurb {
+  font-weight: 100;
+  font-size: 1.1em;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+
+.jumbotron-content-container {
+  margin-top: 1em;
+}

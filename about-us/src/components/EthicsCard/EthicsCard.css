@@ -1,0 +1,19 @@
+.ethics-card-container {
+  width: 100%;
+  background: #f7f7ff;
+  height: 100%;
+}
+
+.card-body {
+  height: 100%;
+}
+
+.card-text {
+  font-weight: 600;
+  text-align: center;
+}
+
+.img-big-container {
+  text-align: center;
+  height: 50%;
+}
