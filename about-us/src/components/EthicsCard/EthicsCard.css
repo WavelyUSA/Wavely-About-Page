@@ -6,7 +6,6 @@
 }
 
 .card-body {
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,10 +19,10 @@
 
 .img-big-container {
   text-align: center;
-  height: 50%;
   width: 60%;
 }
 
 .img-container {
-  height: 100%;
+  position: relative;
+  top: -1em;
 }

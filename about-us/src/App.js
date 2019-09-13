@@ -5,6 +5,7 @@ import AboutJumbotron from "./components/Jumbotron/Jumbotron";
 import Banner from "./components/Banner/Banner";
 import Ethics from "./components/Ethics/Ethics";
 import Investors from "./components/Investors/Investors";
+// import Carousel from "./components/Carousel/Carousel";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <Ethics />
       <Investors />
+      {/* <Carousel /> */}
     </div>
   );
 }

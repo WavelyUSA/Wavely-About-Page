@@ -14,7 +14,6 @@ const EthicsCard = props => {
         <Card.Text className="card-text">{props.ethicsText}</Card.Text>
         <div className="img-big-container">
           <Card.Img
-            variant="bottom"
             className="img-container"
             src={props.image}
             // style={imgStyle}
