@@ -2,23 +2,28 @@
   width: 100%;
   background: #f7f7ff;
   height: 100%;
+  border: none;
 }
 
 .card-body {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-text {
   font-weight: 600;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .img-big-container {
   text-align: center;
   height: 50%;
+  width: 60%;
 }
 
 .img-container {
   height: 100%;
-  width: 60%;
 }

@@ -8,7 +8,7 @@ const Ethics = () => {
   return (
     <Jumbotron fluid className="ethics-container">
       <Container className="internal-ethics-container">
-        <div className="ethics-title">Our Ethics</div>
+        <h4 className="ethics-title">Our Ethics</h4>
         <div className="flex-container">
           <EthicsGridRow
             ethicsText1="Professional and Honest"
@@ -34,6 +34,7 @@ const Ethics = () => {
           />
           <EthicsGridRow
             ethicsText1="Passionate and High-quality Work"
+            image1={require("../images/Ethics/passion.png")}
             ethicsText2="Responsibilities for the Good"
             image2={require("../images/Ethics/social-good.png")}
           />

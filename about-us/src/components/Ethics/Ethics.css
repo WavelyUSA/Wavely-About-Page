@@ -1,7 +1,8 @@
 .ethics-container {
   background: #f7f7ff;
   height: 100%;
-  margin-bottom: -32px;
+  padding: 0;
+  margin: 0;
   font-family: "Roboto";
   width: 100%;
 }
@@ -15,7 +16,7 @@
   font-weight: 600;
   height: 100%;
   width: 100%;
-  padding: 0 0 0.9em 1.5em;
+  padding-left: 0.6em;
 }
 
 .flex-container {

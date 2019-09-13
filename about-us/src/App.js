@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar/NavBar";
 import AboutJumbotron from "./components/Jumbotron/Jumbotron";
 import Banner from "./components/Banner/Banner";
 import Ethics from "./components/Ethics/Ethics";
+import Investors from "./components/Investors/Investors";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <AboutJumbotron />
       <Banner />
       <Ethics />
+      <Investors />
     </div>
   );
 }

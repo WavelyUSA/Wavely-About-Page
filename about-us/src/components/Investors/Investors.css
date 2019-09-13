@@ -1,0 +1,38 @@
+.investors-big-container {
+  background: #785964;
+  font-family: "Roboto";
+  margin-bottom: 0;
+  padding-bottom: 24px;
+  color: #f1edee;
+}
+
+.investors-title {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.investors-line {
+  border: 0.5px solid #f1edee;
+}
+
+.investors-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.img-container {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.ggv-capital-img,
+.goldman-sachs-img {
+  width: 100%;
+}
+
+.ggv-capital-img {
+  margin-bottom: 2em;
+}
