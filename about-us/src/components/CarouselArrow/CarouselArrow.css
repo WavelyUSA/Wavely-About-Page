@@ -1,0 +1,15 @@
+.right {
+  width: 100%;
+  text-align: center;
+  margin-left: -4em;
+  color: #2db4b4;
+  cursor: pointer;
+}
+
+.left {
+  width: 100%;
+  text-align: center;
+  margin-right: -4em;
+  color: #2db4b4;
+  cursor: pointer;
+}

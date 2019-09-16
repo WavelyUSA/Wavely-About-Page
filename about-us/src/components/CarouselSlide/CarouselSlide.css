@@ -1,0 +1,24 @@
+.profile-img-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-img {
+  width: 100%;
+}
+
+.profile-img-name {
+  color: #2db4b4;
+  font-weight: 600;
+  font-size: 1.2em;
+  width: 105%;
+  text-align: center;
+}
+
+.profile-img-position {
+  font-style: italic;
+  width: 130%;
+  text-align: center;
+}

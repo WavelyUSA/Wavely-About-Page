@@ -1,4 +1,50 @@
-.carousel-container {
-  background: grey;
-  color: blue;
+.carousel-giant-container {
+  background: #f7f7ff;
+  font-family: "Roboto";
+  padding-bottom: 2em;
 }
+
+.our-team-text {
+  color: #2db4b4;
+  font-weight: 600;
+  padding-left: 0.6em;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+
+.our-team-blurb {
+  color: black;
+  padding-left: 1.3em;
+  padding-top: 0.8em;
+  padding-bottom: 2em;
+  padding-right: 1.3em;
+}
+
+.carousel-component-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+/* .profile-img-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-img {
+  width: 100%;
+}
+
+.profile-img-name {
+  color: #2db4b4;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.profile-img-position {
+  font-style: italic;
+} */
