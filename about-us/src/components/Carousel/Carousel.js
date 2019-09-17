@@ -96,7 +96,7 @@ class Carousel extends React.Component {
     const { currentImageIndex } = this.state;
     const shouldResetIndex = currentImageIndex === 0;
     const index = shouldResetIndex ? lastIndex : currentImageIndex - 1;
-    console.log("left btn clicked!");
+
     this.setState({
       currentImageIndex: index
     });
@@ -107,14 +107,13 @@ class Carousel extends React.Component {
     const { currentImageIndex } = this.state;
     const shouldResetIndex = currentImageIndex === lastIndex;
     const index = shouldResetIndex ? 0 : currentImageIndex + 1;
-    console.log("right btn clicked!");
+
     this.setState({
       currentImageIndex: index
     });
   };
 
   render() {
-    // console.log(this.state.currentImageIndex);
     console.log(this.state.imgURLs[this.state.currentImageIndex].path);
     return (
       <div className="carousel-giant-container">
@@ -130,20 +129,6 @@ class Carousel extends React.Component {
             clickFunction={this.previousSlide}
             glyph="&#9664;"
           />
-          {/* <div className="profile-img-container">
-            <img
-              alt={this.state.imgURLs[this.state.currentImageIndex].id}
-              src={require("" +
-                `../images/Profile/${this.state.imgURLs[this.state.currentImageIndex].path}`)}
-              className="profile-img"
-            ></img>
-            <div className="profile-img-name">
-              {this.state.imgURLs[this.state.currentImageIndex].name}
-            </div>
-            <div className="profile-img-position">
-              {this.state.imgURLs[this.state.currentImageIndex].position}
-            </div>
-          </div> */}
           <CarouselSlide
             url={this.state.imgURLs[this.state.currentImageIndex].path}
             name={this.state.imgURLs[this.state.currentImageIndex].name}

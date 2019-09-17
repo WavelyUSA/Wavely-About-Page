@@ -1,15 +1,40 @@
-.right {
+.arrow-container {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  width: 30%;
   text-align: center;
-  margin-left: -4em;
   color: #2db4b4;
   cursor: pointer;
+  margin-right: 2em;
 }
 
 .left {
-  width: 100%;
+  width: 30%;
   text-align: center;
-  margin-right: -4em;
   color: #2db4b4;
   cursor: pointer;
+  margin-left: 2em;
+}
+
+.right:hover {
+  opacity: 0.8;
+}
+
+.left:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 768px) {
+  .right {
+    width: 10%;
+    margin-right: 10em;
+  }
+  .left {
+    width: 10%;
+    margin-left: 10em;
+  }
 }

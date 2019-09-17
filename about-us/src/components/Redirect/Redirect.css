@@ -1,0 +1,73 @@
+.big-redirect-container {
+  background: #785964;
+  margin: 0;
+  width: 100%;
+  padding-top: 1em;
+}
+
+.small-redirect-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 0.75em;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+}
+
+.green-wavely-seal {
+  width: 15%;
+}
+
+.title-text {
+  font-family: "Roboto";
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #f7f7ff;
+  margin-left: 0.5em;
+  line-height: 1.1em;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.sign-up-now-btn {
+  font-family: "Roboto";
+  font-weight: bold;
+  width: 30%;
+  color: #f7f7ff;
+  font-size: 1.1em;
+  line-height: 2em;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background: #6c8ead;
+  border-radius: 16px;
+  margin-top: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .green-wavely-seal {
+    width: 10%;
+  }
+  .title-container {
+    display: flex;
+    justify-content: center;
+  }
+  .title-text {
+    font-size: 1.8em;
+  }
+  .sign-up-now-btn {
+    width: 25%;
+    font-size: 1.5em;
+  }
+
+  .small-redirect-container {
+    margin-top: 1em;
+  }
+}

@@ -6,7 +6,8 @@ import Banner from "./components/Banner/Banner";
 import Ethics from "./components/Ethics/Ethics";
 import Investors from "./components/Investors/Investors";
 import Carousel from "./components/Carousel/Carousel";
-import Footer from "./components/Footer/Footer";
+import Redirect from "./components/Redirect/Redirect";
+// import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Ethics />
       <Investors />
       <Carousel />
-      <Footer />
+      <Redirect />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .carousel-giant-container {
   background: #f7f7ff;
   font-family: "Roboto";
-  padding-bottom: 2em;
+  padding-bottom: 3em;
 }
 
 .our-team-text {
@@ -28,23 +28,13 @@
   width: 100%;
 }
 
-/* .profile-img-container {
-  width: 80%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+@media only screen and (min-width: 768px) {
+  .our-team-text {
+    font-size: 2.2em;
+    margin-left: 0.6em;
+  }
+  .our-team-blurb {
+    padding-left: 2.2em;
+    font-size: 1.4em;
+  }
 }
-
-.profile-img {
-  width: 100%;
-}
-
-.profile-img-name {
-  color: #2db4b4;
-  font-weight: 600;
-  font-size: 1.2em;
-}
-
-.profile-img-position {
-  font-style: italic;
-} */

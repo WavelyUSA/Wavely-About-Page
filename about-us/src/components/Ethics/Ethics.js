@@ -21,19 +21,19 @@ const Ethics = () => {
             // width2="55%"
           />
           <EthicsGridRow
-            ethicsText1="Results Driven and Accountable"
+            ethicsText1="Data Driven"
             image1={require("../images/Ethics/results.png")}
             ethicsText2="Entrepreneurial Spirit"
             image2={require("../images/Ethics/entrepreneur.png")}
           />
           <EthicsGridRow
-            ethicsText1="Well-organized and High Productivity"
+            ethicsText1="Well-organized and Productive"
             image1={require("../images/Ethics/productivity.png")}
-            ethicsText2="Teamwork and Cooperation"
+            ethicsText2="Teamwork and Cooperative"
             image2={require("../images/Ethics/teamwork.png")}
           />
           <EthicsGridRow
-            ethicsText1="Passionate and High-quality Work"
+            ethicsText1="Passionate"
             image1={require("../images/Ethics/passion.png")}
             ethicsText2="Responsibilities for the Good"
             image2={require("../images/Ethics/social-good.png")}

@@ -1,12 +1,12 @@
-.profile-img-container {
-  width: 80%;
+.big-container {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 .profile-img {
-  width: 100%;
+  width: 150px;
+  height: 150px;
 }
 
 .profile-img-name {
@@ -21,4 +21,39 @@
   font-style: italic;
   width: 130%;
   text-align: center;
+}
+
+.scale-appear {
+  filter: grayscale(100%);
+  transition: all 1000ms ease-in-out;
+}
+
+.scale-appear.scale-appear-active {
+  filter: grayscale(0);
+}
+.scale-enter {
+  transform: scale(1);
+}
+.scale-leave.scale-leave-active {
+  transform: scale(1.2);
+  opacity: 0.01;
+  transition: all 500ms ease-in-out;
+}
+
+.scale-enter.scale-enter-active {
+  transform: scale(1);
+  transition: all 500ms ease-in-out;
+}
+
+@media only screen and (min-width: 768px) {
+  .profile-img {
+    width: 240px;
+    height: 240px;
+  }
+  .profile-img-name {
+    font-size: 1.8em;
+  }
+  .profile-img-position {
+    font-size: 1.5em;
+  }
 }

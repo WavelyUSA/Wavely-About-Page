@@ -36,3 +36,9 @@
 .ggv-capital-img {
   margin-bottom: 1em;
 }
+
+@media only screen and (min-width: 768px) {
+  .investors-title {
+    font-size: 2.2em;
+  }
+}

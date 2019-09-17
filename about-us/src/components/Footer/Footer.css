@@ -5,6 +5,7 @@
   width: 100%;
   font-family: "Roboto";
   display: block;
+  border-radius: 0;
 }
 
 .info-big-div {
@@ -97,16 +98,18 @@ h4 {
   }
   .terms-container {
     font-size: 9.5px;
-    padding: 12px 0;
+    padding: 12px 0 12px 2em;
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
   }
   .wavely-seal-img {
     width: 85px;
     height: 24px;
   }
-  .bottom-footer-container {
-    margin-left: -9em;
-  }
+  /* .bottom-footer-container {
+    margin-left: -4em;
+  } */
   .footer-bottom-text {
     margin-left: 1.5em;
     color: hsla(0, 0%, 100%, 0.5);
@@ -155,12 +158,15 @@ h4 {
   .info-big-div {
     height: 165px;
   }
+  /* .bottom-footer-container {
+    margin-left: -22%;
+  } */
 }
 
 @media only screen and (min-width: 600px) {
-  .bottom-footer-container {
+  /* .bottom-footer-container {
     margin-left: 8%;
-  }
+  } */
 }
 
 @media only screen and (min-width: 768px) {
@@ -175,6 +181,7 @@ h4 {
     flex-direction: row;
     font-size: 11px;
     max-width: 85%;
+    height: 100%;
   }
   .social-media-logos {
     display: inline-block;

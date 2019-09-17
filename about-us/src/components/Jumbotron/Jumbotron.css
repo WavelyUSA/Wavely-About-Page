@@ -2,7 +2,7 @@
   font-family: "Roboto";
   background: #f7f7ff;
   margin-bottom: -2em;
-  padding-top: 6em;
+  padding-top: 5em;
 }
 
 .about-word {
@@ -17,14 +17,41 @@
   font-size: 2.2em;
 }
 
-.jumbotron-blurb {
+.jumbotron-blurb1 {
   font-weight: 100;
   font-size: 1.1em;
   margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 0 0.5em 0 0.5em;
+}
+
+.jumbotron-blurb2 {
+  font-weight: 100;
+  font-size: 1.1em;
   margin-bottom: 3em;
+  padding: 0 0.5em 0 0.5em;
 }
 
 .jumbotron-content-container {
   margin-top: 1.5em;
   margin-left: 0.3em;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-word {
+    font-size: 1.3em;
+  }
+  .jumbotron-title {
+    font-size: 2.5em;
+  }
+  .jumbotron-blurb1 {
+    font-size: 1.3em;
+    margin-left: 0.5em;
+    padding: 0;
+  }
+  .jumbotron-blurb2 {
+    margin-left: 0.5em;
+    font-size: 1.3em;
+    padding: 0;
+  }
 }
