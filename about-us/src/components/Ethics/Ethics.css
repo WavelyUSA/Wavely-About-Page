@@ -9,6 +9,8 @@
 
 .internal-ethics-container {
   padding: 0 0 1.5em 0;
+  margin: 0;
+  width: 100%;
 }
 
 .ethics-title {
@@ -17,7 +19,7 @@
   font-size: 1.5em;
   height: 100%;
   width: 100%;
-  padding-left: 0.6em;
+  padding-left: 0.5em;
   padding-top: 1em;
 }
 
@@ -31,5 +33,12 @@
 @media only screen and (min-width: 768px) {
   .ethics-title {
     font-size: 2.2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
   }
 }

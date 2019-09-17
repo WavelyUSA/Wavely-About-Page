@@ -1,5 +1,13 @@
-.ethics-grid-row {
+.ethics-grid-row-small {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto auto;
   width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .ethics-grid-row-small {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: auto auto;
+  }
 }

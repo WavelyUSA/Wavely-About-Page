@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 const AboutJumbotron = () => {
   return (
     <Jumbotron fluid className="jumbotron-container">
-      <Container>
+      <div className="all-text-container">
         <div className="about-word">About</div>
         <div className="jumbotron-content-container">
           <div className="jumbotron-title">Wave Hello to Your New Job</div>
@@ -24,7 +24,7 @@ const AboutJumbotron = () => {
             environments.
           </div>
         </div>
-      </Container>
+      </div>
     </Jumbotron>
   );
 };

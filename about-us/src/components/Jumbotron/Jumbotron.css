@@ -5,6 +5,10 @@
   padding-top: 5em;
 }
 
+.all-text-container {
+  margin: 0 0.8em 0 0.8em;
+}
+
 .about-word {
   color: #2db4b4;
   font-weight: 600;
@@ -22,14 +26,16 @@
   font-size: 1.1em;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  padding: 0 0.5em 0 0.5em;
+  padding: 0 0.5em 0 0.2em;
+  width: 85%;
 }
 
 .jumbotron-blurb2 {
   font-weight: 100;
   font-size: 1.1em;
   margin-bottom: 3em;
-  padding: 0 0.5em 0 0.5em;
+  padding: 0 0.5em 0 0.2em;
+  width: 85%;
 }
 
 .jumbotron-content-container {
@@ -44,14 +50,17 @@
   .jumbotron-title {
     font-size: 2.5em;
   }
-  .jumbotron-blurb1 {
-    font-size: 1.3em;
-    margin-left: 0.5em;
-    padding: 0;
-  }
+  .jumbotron-blurb1,
   .jumbotron-blurb2 {
-    margin-left: 0.5em;
     font-size: 1.3em;
+    margin-left: 0.3em;
     padding: 0;
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .all-text-container {
+    padding: 0 0 0 1em;
   }
 }

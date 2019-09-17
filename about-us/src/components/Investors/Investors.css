@@ -4,11 +4,18 @@
   margin-bottom: 0;
   padding-bottom: 36px;
   color: #f1edee;
+  width: 100%;
 }
 
 .investors-title {
   font-weight: bold;
   margin-bottom: 1em;
+  margin-left: 0.5em;
+}
+
+.below-investors-title-container {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .investors-line {
@@ -40,5 +47,14 @@
 @media only screen and (min-width: 768px) {
   .investors-title {
     font-size: 2.2em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .investors-title {
+    margin-left: 1em;
+  }
+  .below-investors-title-container {
+    padding-left: 3em;
+    padding-right: 3em;
   }
 }

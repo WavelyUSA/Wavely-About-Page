@@ -16,6 +16,7 @@
   flex-direction: row;
   align-items: center;
   width: 90%;
+  justify-content: center;
 }
 
 .green-wavely-seal {
@@ -51,6 +52,10 @@
   margin-top: 1em;
 }
 
+.sign-up-now-btn:hover {
+  opacity: 0.9;
+}
+
 @media only screen and (min-width: 768px) {
   .green-wavely-seal {
     width: 10%;
@@ -69,5 +74,14 @@
 
   .small-redirect-container {
     margin-top: 1em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .title-text {
+    font-size: 2.2em;
+  }
+  .sign-up-now-btn {
+    font-size: 1.8em;
   }
 }

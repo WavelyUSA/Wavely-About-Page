@@ -7,9 +7,9 @@
 .our-team-text {
   color: #2db4b4;
   font-weight: 600;
-  padding-left: 0.6em;
   font-size: 1.5em;
   padding-top: 1em;
+  padding-left: 0.6em;
 }
 
 .our-team-blurb {
@@ -31,10 +31,18 @@
 @media only screen and (min-width: 768px) {
   .our-team-text {
     font-size: 2.2em;
-    margin-left: 0.6em;
   }
   .our-team-blurb {
-    padding-left: 2.2em;
     font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .our-team-blurb {
+    font-size: 1.6em;
+    padding-left: 1.8em;
+  }
+  .our-team-text {
+    margin-left: 0.3em;
   }
 }

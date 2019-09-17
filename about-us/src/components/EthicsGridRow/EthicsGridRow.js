@@ -4,7 +4,7 @@ import EthicsCard from "../EthicsCard/EthicsCard";
 
 const EthicsGridRow = props => {
   return (
-    <div className="ethics-grid-row">
+    <div className="ethics-grid-row-small">
       <EthicsCard
         ethicsText={props.ethicsText1}
         image={props.image1}

@@ -1,13 +1,12 @@
 import React from "react";
 import "./Investors.css";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Container from "react-bootstrap/Container";
 
 const Investors = () => {
   return (
     <Jumbotron fluid className="investors-big-container">
-      <Container>
-        <h4 className="investors-title">Our Investors</h4>
+      <h4 className="investors-title">Our Investors</h4>
+      <div className="below-investors-title-container">
         <hr className="investors-line"></hr>
         <div className="investors-container">
           <div className="img-container">
@@ -25,7 +24,7 @@ const Investors = () => {
             ></img>
           </div>
         </div>
-      </Container>
+      </div>
     </Jumbotron>
   );
 };
