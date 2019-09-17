@@ -1,6 +1,6 @@
 # Wavely About Us Page
 
-## Installation
+## Local Installation and Testing
 
 To run the application on your local environment, follow the below steps:
 
