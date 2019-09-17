@@ -114,7 +114,6 @@ class Carousel extends React.Component {
   };
 
   render() {
-    console.log(this.state.imgURLs[this.state.currentImageIndex].path);
     return (
       <div className="carousel-giant-container">
         <div className="our-team-text">Our Team</div>
