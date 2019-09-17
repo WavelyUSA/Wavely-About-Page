@@ -18,5 +18,10 @@ npm install
 ``` 
 npm start
 ```
+6. To run the application as production quality code, enter the following into terminal:
+```
+npm run build
+serve -s build
+```
 
 
