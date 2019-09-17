@@ -19,9 +19,9 @@
     Helvetica Neue, arial, verdana, sans-serif;
 }
 
-h4 {
+.h4-text {
   font-size: 1.5em;
-  margin-bottom: 1.5em;
+  /* margin-bottom: 1.5em; */
   font-weight: 300;
   line-height: 1.2;
 }
@@ -98,18 +98,16 @@ h4 {
   }
   .terms-container {
     font-size: 9.5px;
-    padding: 12px 0 12px 2em;
+    padding: 12px 0;
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
   }
   .wavely-seal-img {
     width: 85px;
     height: 24px;
   }
-  /* .bottom-footer-container {
-    margin-left: -4em;
-  } */
+  .bottom-footer-container {
+    margin-left: 6%;
+  }
   .footer-bottom-text {
     margin-left: 1.5em;
     color: hsla(0, 0%, 100%, 0.5);
@@ -117,17 +115,9 @@ h4 {
   }
   .address-info-container {
     width: 55%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-weight: bold;
   }
-
   .mobile-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-weight: bold;
+    height: 95%;
   }
   h4 {
     margin-bottom: 0.5em;
@@ -142,31 +132,21 @@ h4 {
   .la-address {
     margin-bottom: 1em;
   }
-  .about-us-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .contact-us-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
 }
 
 @media only screen and (min-width: 375px) {
   .info-big-div {
     height: 165px;
   }
-  /* .bottom-footer-container {
-    margin-left: -22%;
-  } */
+  .bottom-footer-container {
+    margin-left: 6.5%;
+  }
 }
 
 @media only screen and (min-width: 600px) {
-  /* .bottom-footer-container {
+  .bottom-footer-container {
     margin-left: 8%;
-  } */
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -181,7 +161,6 @@ h4 {
     flex-direction: row;
     font-size: 11px;
     max-width: 85%;
-    height: 100%;
   }
   .social-media-logos {
     display: inline-block;
@@ -218,7 +197,7 @@ h4 {
     width: 64%;
     margin-left: 5em;
   }
-  h4 {
+  .h4-text {
     font-size: 1.4em;
   }
   .company-contact-address-container {
@@ -291,7 +270,7 @@ h4 {
   .address-info-container {
     width: 36%;
   }
-  h4 {
+  .h4-text {
     font-size: 1.9em;
   }
 }

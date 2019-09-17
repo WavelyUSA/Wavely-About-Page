@@ -1,7 +1,6 @@
 import React from "react";
 import "./Jumbotron.css";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Container from "react-bootstrap/Container";
 
 const AboutJumbotron = () => {
   return (

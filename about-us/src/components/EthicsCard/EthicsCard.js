@@ -3,21 +3,12 @@ import Card from "react-bootstrap/Card";
 import "./EthicsCard.css";
 
 const EthicsCard = props => {
-  //   const imgStyle = {
-  //     height: `${props.height}`,
-  //     width: `${props.width}`
-  //   };
-
   return (
     <Card className="ethics-card-container">
-      <Card.Body>
-        <Card.Text className="card-text">{props.ethicsText}</Card.Text>
+      <Card.Body className="ethics-card-body">
+        <Card.Text className="ethics-card-text">{props.ethicsText}</Card.Text>
         <div className="img-big-container">
-          <Card.Img
-            className="img-container"
-            src={props.image}
-            // style={imgStyle}
-          />
+          <Card.Img className="img-container" src={props.image} />
         </div>
       </Card.Body>
     </Card>

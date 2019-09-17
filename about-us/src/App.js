@@ -7,7 +7,7 @@ import Ethics from "./components/Ethics/Ethics";
 import Investors from "./components/Investors/Investors";
 import Carousel from "./components/Carousel/Carousel";
 import Redirect from "./components/Redirect/Redirect";
-// import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Investors />
       <Carousel />
       <Redirect />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
