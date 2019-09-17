@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 const Investors = () => {
   return (
     <Jumbotron fluid className="investors-big-container">
-      <Container className="big-container">
+      <Container>
         <h4 className="investors-title">Our Investors</h4>
         <hr className="investors-line"></hr>
         <div className="investors-container">
