@@ -1,0 +1,21 @@
+.profile-quote {
+  font-style: italic;
+  width: 80%;
+  text-align: center;
+  font-family: "Roboto";
+  margin-top: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .profile-quote {
+    margin-top: 0;
+    font-size: 1.4em;
+    padding: 0 2em 0 2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .profile-quote {
+    font-size: 1.6em;
+  }
+}

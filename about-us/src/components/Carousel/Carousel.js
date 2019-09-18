@@ -2,13 +2,15 @@ import React from "react";
 import "./Carousel.css";
 import CarouselSlide from "../CarouselSlide/CarouselSlide";
 import CarouselArrow from "../CarouselArrow/CarouselArrow";
-// import imgURLs from "../images/Profile/photos";
+import ProfileQuote from "../ProfileQuote/ProfileQuote";
 
 const imgURLs = [
   {
     path: require("../images/Profile/Danie.png"),
     id: 1,
     name: "Danie Li",
+    quote:
+      "“Blazing new trails requires grit, resilience, and most importantly trusting yourself. When you believe in yourself, you’ll realize your greatest dreams - and inspire others to do the same.”",
     position: "CEO"
   },
   {
@@ -51,6 +53,8 @@ const imgURLs = [
     path: require("../images/Profile/Greg.png"),
     id: 8,
     name: "Greg Tang",
+    quote:
+      "“Understand to achieve anything requires faith and belief in yourself, vision, hard work, determination, and dedication. Remember all things are possible for those who believe.“",
     position: "Software Engineer"
   },
   {
@@ -123,21 +127,28 @@ class Carousel extends React.Component {
           people around. Come meet our team!
         </div>
         <div className="carousel-component-container">
-          <CarouselArrow
-            direction="left"
-            clickFunction={this.previousSlide}
-            glyph="&#9664;"
-          />
-          <CarouselSlide
-            url={this.state.imgURLs[this.state.currentImageIndex].path}
-            name={this.state.imgURLs[this.state.currentImageIndex].name}
-            position={this.state.imgURLs[this.state.currentImageIndex].position}
-            id={this.state.imgURLs[this.state.currentImageIndex].id}
-          />
-          <CarouselArrow
-            direction="right"
-            clickFunction={this.nextSlide}
-            glyph="&#9654;"
+          <div className="carousel-picture-info-container">
+            <CarouselArrow
+              direction="left"
+              clickFunction={this.previousSlide}
+              img={require("../images/left-arrow.svg")}
+            />
+            <CarouselSlide
+              url={this.state.imgURLs[this.state.currentImageIndex].path}
+              name={this.state.imgURLs[this.state.currentImageIndex].name}
+              position={
+                this.state.imgURLs[this.state.currentImageIndex].position
+              }
+              id={this.state.imgURLs[this.state.currentImageIndex].id}
+            />
+            <CarouselArrow
+              direction="right"
+              clickFunction={this.nextSlide}
+              img={require("../images/right-arrow.svg")}
+            />
+          </div>
+          <ProfileQuote
+            quote={this.state.imgURLs[this.state.currentImageIndex].quote}
           />
         </div>
       </div>

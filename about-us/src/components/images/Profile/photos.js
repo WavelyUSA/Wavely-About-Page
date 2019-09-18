@@ -3,6 +3,8 @@ export const imgURLs = [
     path: require("../images/Profile/Danie.png"),
     id: 1,
     name: "Danie Li",
+    quote:
+      "“Blazing new trails requires grit, resilience, and most importantly trusting yourself. When you believe in yourself, you’ll realize your greatest dreams - and inspire others to do the same.”",
     position: "CEO"
   },
   {
