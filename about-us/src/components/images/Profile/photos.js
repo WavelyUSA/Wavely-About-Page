@@ -17,6 +17,7 @@ export const imgURLs = [
     path: "../images/Profile/Dave.png",
     id: 3,
     name: "David Kuo",
+    quote: "“Whatever the mind can conceive and believe, it can achieve.”",
     position: "Director, BD"
   },
   {
@@ -35,6 +36,8 @@ export const imgURLs = [
     path: "../images/Profile/Tingting.png",
     id: 6,
     name: "Tingting Lin",
+    quote:
+      "”If you are doing what you like, you will see yourself being passionate, energetic, and curious about your surroundings. You won't be able to stop thinking even when you are resting. This will motivate you to grow rapidly with the company you work for.”",
     position: "Manager, HR"
   },
   {
@@ -59,6 +62,8 @@ export const imgURLs = [
     path: "../images/Profile/Alexa.png",
     id: 10,
     name: "Alexa Zhao",
+    quote:
+      "“Don’t Be Too Timid And Squeamish About Your Actions. All Life Is An Experiment. The More Experiments You Make The Better.”",
     position: "Senior Marketing Specialist"
   },
   {
@@ -71,6 +76,8 @@ export const imgURLs = [
     path: "../images/Profile/William.png",
     id: 12,
     name: "William Wu",
+    quote:
+      "“Stay Hungry. Stay Foolish. Push yourself. Stay eager to learn, take risks, and keep trying to do what others say can’t be done.“",
     position: "BD Associate"
   },
   {

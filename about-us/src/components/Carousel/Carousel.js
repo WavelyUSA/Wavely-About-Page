@@ -23,6 +23,7 @@ const imgURLs = [
     path: require("../images/Profile/Dave.png"),
     id: 3,
     name: "David Kuo",
+    quote: "“Whatever the mind can conceive and believe, it can achieve.”",
     position: "Director, BD"
   },
   {
@@ -41,6 +42,8 @@ const imgURLs = [
     path: require("../images/Profile/Tingting.png"),
     id: 6,
     name: "Tingting Lin",
+    quote:
+      "”If you are doing what you like, you will see yourself being passionate, energetic, and curious about your surroundings. You won't be able to stop thinking even when you are resting. This will motivate you to grow rapidly with the company you work for.”",
     position: "Manager, HR"
   },
   {
@@ -67,6 +70,8 @@ const imgURLs = [
     path: require("../images/Profile/Alexa.png"),
     id: 10,
     name: "Alexa Zhao",
+    quote:
+      "“Don’t Be Too Timid And Squeamish About Your Actions. All Life Is An Experiment. The More Experiments You Make The Better.”",
     position: "Senior Marketing Specialist"
   },
   {
@@ -79,6 +84,8 @@ const imgURLs = [
     path: require("../images/Profile/William.png"),
     id: 12,
     name: "William Wu",
+    quote:
+      "“Stay Hungry. Stay Foolish. Push yourself. Stay eager to learn, take risks, and keep trying to do what others say can’t be done.“",
     position: "BD Associate"
   },
   {
@@ -133,6 +140,7 @@ class Carousel extends React.Component {
               clickFunction={this.previousSlide}
               img={require("../images/left-arrow.svg")}
             />
+
             <CarouselSlide
               url={this.state.imgURLs[this.state.currentImageIndex].path}
               name={this.state.imgURLs[this.state.currentImageIndex].name}
@@ -141,6 +149,7 @@ class Carousel extends React.Component {
               }
               id={this.state.imgURLs[this.state.currentImageIndex].id}
             />
+
             <CarouselArrow
               direction="right"
               clickFunction={this.nextSlide}
