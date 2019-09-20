@@ -70,11 +70,13 @@ const Footer = () => {
       </div>
       <Card.Text className="terms-container">
         <span className="bottom-footer-container">
-          <img
-            src={require("../images/wavely-seal.png")}
-            alt="wavely-seal"
-            className="wavely-seal-img"
-          ></img>
+          <a a href="https://www.wavely.com">
+            <img
+              src={require("../images/wavely-seal.png")}
+              alt="wavely-seal"
+              className="wavely-seal-img"
+            ></img>
+          </a>
           <a
             href="https://www.wavely.com/privacy"
             className="footer-bottom-text"
