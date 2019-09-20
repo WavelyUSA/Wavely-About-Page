@@ -2,11 +2,18 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: solid 1px red;
-  -webkit-animation-duration: 10s;
+}
+
+.animation {
+  -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 
 @-webkit-keyframes fadeIn {
@@ -25,11 +32,6 @@
   100% {
     opacity: 1;
   }
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
 }
 
 .profile-img {

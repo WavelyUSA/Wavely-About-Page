@@ -1,17 +1,20 @@
 import React from "react";
 import "./CarouselSlide.css";
 
-const Slide = props => {
-  const style = {
-    opacity: props.opacity
-  };
-  return (
-    <div className="big-container animated fadeIn" style={style}>
-      <img alt={props.id} src={props.url} className="profile-img"></img>
-      <div className="profile-img-name">{props.name}</div>
-      <div className="profile-img-position">{props.position}</div>
-    </div>
-  );
-};
+class CarouselSlide extends React.Component {
+  render() {
+    return (
+      <div className="big-container animation fadeIn">
+        <img
+          alt={this.props.id}
+          src={this.props.url}
+          className="profile-img"
+        ></img>
+        <div className="profile-img-name">{this.props.name}</div>
+        <div className="profile-img-position">{this.props.position}</div>
+      </div>
+    );
+  }
+}
 
-export default Slide;
+export default CarouselSlide;
