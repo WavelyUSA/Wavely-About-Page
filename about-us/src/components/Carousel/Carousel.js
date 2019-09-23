@@ -17,6 +17,8 @@ const imgURLs = [
     path: require("../images/Profile/Amber.png"),
     id: 2,
     name: "Amber Srivastava",
+    quote:
+      "“Tomorrow is too late & yesterday is already over. Right now is the only right moment- so start now!“",
     position: "Director, BD"
   },
   {
