@@ -19,7 +19,7 @@
 
 .img-big-container {
   text-align: center;
-  width: 60%;
+  width: 80px;
 }
 
 .img-container {
@@ -32,6 +32,6 @@
     font-size: 1.5em;
   }
   .img-big-container {
-    width: 45%;
+    width: 95px;
   }
 }

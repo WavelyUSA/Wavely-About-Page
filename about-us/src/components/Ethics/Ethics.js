@@ -24,7 +24,7 @@ const Ethics = () => {
           <EthicsGridRow
             ethicsText1="Productive"
             image1={require("../images/Ethics/productivity.png")}
-            ethicsText2="Team Player"
+            ethicsText2="Cooperative"
             image2={require("../images/Ethics/teamwork.png")}
           />
           <EthicsGridRow
