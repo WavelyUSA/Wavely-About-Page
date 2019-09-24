@@ -58,7 +58,7 @@
   }
   .ggv-capital-img,
   .goldman-sachs-img {
-    width: 300px;
+    width: 250px;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -71,6 +71,6 @@
   }
   .ggv-capital-img,
   .goldman-sachs-img {
-    width: 350px;
+    width: 300px;
   }
 }
