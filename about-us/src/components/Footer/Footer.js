@@ -17,6 +17,9 @@ const Footer = () => {
                 >
                   About Us
                 </a>
+                <a href="https://blog.wavely.com" className="blog-link">
+                  Blog
+                </a>
               </Card.Text>
               <Card.Text className="contact-us-container info">
                 <h4 className="h4-text">Contact Us</h4>
