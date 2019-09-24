@@ -62,12 +62,12 @@ const imgURLs = [
       "“Understand to achieve anything requires faith and belief in yourself, vision, hard work, determination, and dedication. Remember all things are possible for those who believe.“",
     position: "Software Engineer"
   },
-  {
-    path: require("../images/Profile/Daniela.png"),
-    id: 9,
-    name: "Daniela Zhang",
-    position: "BD Intern"
-  },
+  // {
+  //   path: require("../images/Profile/Daniela.png"),
+  //   id: 9,
+  //   name: "Daniela Zhang",
+  //   position: "BD Intern"
+  // },
   {
     path: require("../images/Profile/Alexa.png"),
     id: 10,

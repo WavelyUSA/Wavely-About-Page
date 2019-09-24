@@ -54,12 +54,12 @@ export const imgURLs = [
     name: "Greg Tang",
     position: "Software Engineer and BD Intern"
   },
-  {
-    path: "../images/Profile/Daniela.png",
-    id: 9,
-    name: "Daniela Zhang",
-    position: "BD Intern"
-  },
+  // {
+  //   path: "../images/Profile/Daniela.png",
+  //   id: 9,
+  //   name: "Daniela Zhang",
+  //   position: "BD Intern"
+  // },
   {
     path: "../images/Profile/Alexa.png",
     id: 10,
