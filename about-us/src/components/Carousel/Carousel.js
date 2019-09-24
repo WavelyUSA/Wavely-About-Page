@@ -80,6 +80,8 @@ const imgURLs = [
     path: require("../images/Profile/Cindy.png"),
     id: 11,
     name: "Cindy Chen",
+    quote:
+      "“What makes life interesting is the possibility of having your dreams come true.“",
     position: "Marketing Specialist"
   },
   {
