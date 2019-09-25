@@ -32,6 +32,8 @@ const imgURLs = [
     path: require("../images/Profile/Matei.png"),
     id: 4,
     name: "Matei Andrei",
+    quote:
+      "”You can do not just twice as much but 200 times as much when you have great teammates.”",
     position: "Manager, BD"
   },
   {

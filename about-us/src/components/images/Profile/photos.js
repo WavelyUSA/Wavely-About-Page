@@ -25,6 +25,8 @@ export const imgURLs = [
   {
     path: "../images/Profile/Matei.png",
     id: 4,
+    quote:
+      "”You can do not just twice as much but 200 times as much when you have great teammates.”",
     name: "Matei Andrei",
     position: "Manager, BD"
   },
