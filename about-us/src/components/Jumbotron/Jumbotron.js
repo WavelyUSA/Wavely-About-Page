@@ -1,10 +1,9 @@
 import React from "react";
 import "./Jumbotron.css";
-import Jumbotron from "react-bootstrap/Jumbotron";
 
 const AboutJumbotron = () => {
   return (
-    <Jumbotron fluid className="jumbotron-container">
+    <div className="jumbotron-container">
       <div className="all-text-container">
         <div className="about-word">About</div>
         <div className="jumbotron-content-container">
@@ -24,7 +23,7 @@ const AboutJumbotron = () => {
           </div>
         </div>
       </div>
-    </Jumbotron>
+    </div>
   );
 };
 
