@@ -11,19 +11,19 @@
 }
 
 .right {
-  width: 25px;
+  width: 1.5em;
   text-align: center;
   color: #2db4b4;
   cursor: pointer;
-  margin-left: 2px;
+  margin-left: 0.1em;
 }
 
 .left {
-  width: 25px;
+  width: 1.5em;
   text-align: center;
   color: #2db4b4;
   cursor: pointer;
-  margin-right: 2px;
+  margin-right: 0.1em;
 }
 
 .right:hover {

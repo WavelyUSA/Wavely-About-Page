@@ -1,15 +1,8 @@
 .investors-big-container {
-  /* background: #785964; */
-  /* background: #93748a; */
   background: #172a3a;
-  /* background: #477890; */
-  /* background: #8e3b46; */
-  /* background: #757780; */
-  /* background: #523a34; */
-  /* background: #335c81; */
   font-family: "Roboto";
   margin-bottom: 0;
-  padding-bottom: 36px;
+  padding-bottom: 2em;
   color: #f1edee;
   width: 100%;
 }
