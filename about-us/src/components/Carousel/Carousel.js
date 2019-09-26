@@ -11,6 +11,7 @@ const imgURLs = [
     name: "Danie Li",
     quote:
       "“Blazing new trails requires grit, resilience, and most importantly trusting yourself. When you believe in yourself, you’ll realize your greatest dreams - and inspire others to do the same.”",
+    linkedinURL: "https://www.linkedin.com/in/danie-l-008a4313a/",
     position: "CEO"
   },
   {
@@ -19,13 +20,16 @@ const imgURLs = [
     name: "Amber Srivastava",
     quote:
       "“Tomorrow is too late & yesterday is already over. Right now is the only right moment- so start now!“",
+    linkedinURL: "https://www.linkedin.com/in/amber-srivastava-2479198/",
     position: "Director, BD"
   },
   {
     path: require("../images/Profile/Dave.png"),
     id: 3,
     name: "David Kuo",
-    quote: "“Whatever the mind can conceive and believe, it can achieve.”",
+    quote:
+      "“Working at Wavely is a blast because of all my great co-workers. Everyday we are working together to solve problems market pain points, advance our product, and increase our market share. Our office space in San Mateo is open and full of natural light, standing desks, and we are very pet-friendly.”",
+    linkedinURL: "https://www.linkedin.com/in/david-kuo-81117351/",
     position: "Director, BD"
   },
   {
@@ -34,12 +38,14 @@ const imgURLs = [
     name: "Matei Andrei",
     quote:
       "”You can do not just twice as much but 200 times as much when you have great teammates.”",
+    linkedinURL: "https://www.linkedin.com/in/matei-andrei/",
     position: "Manager, BD"
   },
   {
     path: require("../images/Profile/Elif.png"),
     id: 5,
     name: "Elif Ayca",
+    linkedinURL: "https://www.linkedin.com/in/elif-ayca-afsar-44594a9b/",
     position: "Product Manager"
   },
   {
@@ -54,6 +60,7 @@ const imgURLs = [
     path: require("../images/Profile/Sophie.png"),
     id: 7,
     name: "Sophie Eden",
+    linkedinURL: "https://www.linkedin.com/in/sophie-eden-silicon-valley/",
     position: "Marketing Specialist"
   },
   {
@@ -62,12 +69,14 @@ const imgURLs = [
     name: "Greg Tang",
     quote:
       "“Understand to achieve anything requires faith and belief in yourself, vision, hard work, determination, and dedication. Remember all things are possible for those who believe.“",
+    linkedinURL: "www.linkedin.com/in/gregory-tang-041127153",
     position: "Software Engineer"
   },
   // {
   //   path: require("../images/Profile/Daniela.png"),
   //   id: 9,
   //   name: "Daniela Zhang",
+  // linkedinURL: "https://www.linkedin.com/in/daniela-zhang-60235527/",
   //   position: "BD Intern"
   // },
   {
@@ -76,6 +85,7 @@ const imgURLs = [
     name: "Alexa Zhao",
     quote:
       "“Don’t Be Too Timid And Squeamish About Your Actions. All Life Is An Experiment. The More Experiments You Make The Better.”",
+    linkedinURL: "https://www.linkedin.com/in/alexazhao/",
     position: "Senior Marketing Specialist"
   },
   {
@@ -84,6 +94,7 @@ const imgURLs = [
     name: "Cindy Chen",
     quote:
       "“What makes life interesting is the possibility of having your dreams come true.“",
+    linkedinURL: "https://www.linkedin.com/in/qiyue-chen-080206/",
     position: "Marketing Specialist"
   },
   {
@@ -154,6 +165,9 @@ class Carousel extends React.Component {
                 this.state.imgURLs[this.state.currentImageIndex].position
               }
               id={this.state.imgURLs[this.state.currentImageIndex].id}
+              linkedinURL={
+                this.state.imgURLs[this.state.currentImageIndex].linkedinURL
+              }
             />
 
             <CarouselArrow

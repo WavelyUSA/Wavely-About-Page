@@ -39,7 +39,7 @@
 }
 
 .sign-up-now-btn {
-  font-family: "Roboto";
+  font-family: "Avenir-Heavy";
   font-weight: bold;
   width: 30%;
   color: #f7f7ff;
@@ -55,7 +55,19 @@
 }
 
 .sign-up-now-btn:hover {
-  opacity: 0.9;
+  background: #f7f7ff;
+  color: #172a3a;
+}
+
+.below-btn-text1,
+.below-btn-text2 {
+  font-family: "PingFang SC";
+  font-size: 0.8em;
+  color: #f7f7ff;
+  text-align: center;
+}
+.below-btn-text2 {
+  margin-top: 0.2em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -76,6 +88,10 @@
 
   .small-redirect-container {
     margin-top: 1em;
+  }
+  .below-btn-text1,
+  .below-btn-text2 {
+    font-size: 1em;
   }
 }
 

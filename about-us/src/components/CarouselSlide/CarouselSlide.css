@@ -58,6 +58,14 @@
   text-align: center;
 }
 
+.profile-img-linkedin {
+  background: #6c8ead;
+  border-radius: 5px;
+  width: 25px;
+  margin-top: 0.3em;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 768px) {
   .profile-img {
     width: 200px;
@@ -68,6 +76,10 @@
   }
   .profile-img-position {
     font-size: 1.5em;
+  }
+  .profile-img-linkedin {
+    width: 38px;
+    margin-top: 0.5em;
   }
 }
 

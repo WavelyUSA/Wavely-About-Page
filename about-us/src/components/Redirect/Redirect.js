@@ -20,6 +20,10 @@ const Redirect = () => {
             <button className="sign-up-now-btn">Sign up!</button>
           </a>
         </div>
+        <div className="below-btn-text-container">
+          <div className="below-btn-text1">Looking to hire amazing people?</div>
+          <div className="below-btn-text2">Create an employer account.</div>
+        </div>
       </Container>
     </Jumbotron>
   );
