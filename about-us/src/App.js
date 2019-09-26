@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import AboutJumbotron from "./components/Jumbotron/Jumbotron";
-import Banner from "./components/Banner/Banner";
+import Mission from "./components/Mission/Mission";
 import Ethics from "./components/Ethics/Ethics";
 import Investors from "./components/Investors/Investors";
 import Carousel from "./components/Carousel/Carousel";
@@ -14,7 +14,7 @@ function App() {
     <div className="app-container">
       <NavBar />
       <AboutJumbotron />
-      <Banner />
+      <Mission />
       <Ethics />
       <Investors />
       <Carousel />

@@ -7,7 +7,7 @@ const AboutJumbotron = () => {
       <div className="all-text-container">
         <div className="about-word">About</div>
         <div className="jumbotron-content-container">
-          <div className="jumbotron-title">Wave Hello to Your New Job</div>
+          <div className="jumbotron-title">Our Story</div>
           <div className="jumbotron-blurb1">
             Wavely is changing the recruitment process with instant chat
             communication and advanced algorithm matching between candidates and

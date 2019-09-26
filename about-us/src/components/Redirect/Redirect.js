@@ -13,7 +13,7 @@ const Redirect = () => {
             src={require("../images/green-wavely-seal.png")}
             className="green-wavely-seal"
           />
-          <div className="title-text">Interested in finding a job now?</div>
+          <div className="title-text">Find your new job now!</div>
         </div>
         <div className="btn-container">
           <a href="https://www.wavely.com/signup" className="href-sign-up-btn">

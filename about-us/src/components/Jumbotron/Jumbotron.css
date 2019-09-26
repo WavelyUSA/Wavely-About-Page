@@ -1,7 +1,8 @@
 .jumbotron-container {
   font-family: "Roboto";
   background: #f7f7ff;
-  margin-bottom: -2em;
+  margin-bottom: -4em;
+  padding-bottom: 5em;
   padding-top: 7em;
 }
 
@@ -27,7 +28,6 @@
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   padding: 0 0.5em 0 0.2em;
-  width: 85%;
 }
 
 .jumbotron-blurb2 {
@@ -35,7 +35,6 @@
   font-size: 1.1em;
   margin-bottom: 3em;
   padding: 0 0.5em 0 0.2em;
-  width: 85%;
 }
 
 .jumbotron-content-container {
@@ -52,7 +51,7 @@
   }
   .jumbotron-blurb1,
   .jumbotron-blurb2 {
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-left: 0.3em;
     padding: 0;
     width: 85%;

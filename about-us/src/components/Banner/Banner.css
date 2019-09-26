@@ -1,3 +1,19 @@
 .banner-img {
   width: 100%;
+  margin-top: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .banner-container {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-right: 0.5em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .banner-container {
+    width: 115%;
+  }
 }

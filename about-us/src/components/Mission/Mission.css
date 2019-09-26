@@ -1,0 +1,55 @@
+.mission-content-big-container {
+  background: #172a3a;
+  padding: 3em 1em 4em 1em;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+}
+.mission-content-small-container {
+  margin-top: 1em;
+}
+
+.mission-title-text {
+  color: #f7f7ff;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+.mission-blurb {
+  color: #f7f7ff;
+  font-weight: 100;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 0.3em;
+}
+
+@media only screen and (min-width: 768px) {
+  .mission-content-big-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .mission-content-small-container {
+    width: 150%;
+  }
+  .mission-blurb {
+    width: 85%;
+  }
+  .mission-title-text {
+    font-size: 2.2em;
+    margin-bottom: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mission-content-big-container {
+    padding: 3em 1.8em 4em 1.8em;
+  }
+  .mission-title-text {
+    margin-bottom: 0.8em;
+  }
+  .mission-blurb {
+    font-size: 1.3em;
+    width: 80%;
+  }
+}

@@ -2,7 +2,7 @@
   background: #172a3a;
   font-family: "Roboto";
   margin-bottom: 0;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
   color: #f1edee;
   width: 100%;
 }
@@ -11,6 +11,7 @@
   font-weight: bold;
   margin-bottom: 1em;
   margin-left: 0.5em;
+  padding-top: 0.5em;
 }
 
 .below-investors-title-container {

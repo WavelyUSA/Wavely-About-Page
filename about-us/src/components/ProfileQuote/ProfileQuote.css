@@ -40,7 +40,8 @@
   .profile-quote {
     margin-top: 0;
     font-size: 1.4em;
-    padding: 0 2em 0 2em;
+    padding: 0 1em 0 1em;
+    margin-right: 2em;
   }
 }
 
