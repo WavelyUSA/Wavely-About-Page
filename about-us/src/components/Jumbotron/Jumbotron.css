@@ -1,5 +1,5 @@
 .jumbotron-container {
-  font-family: "Roboto";
+  font-family: "Avenir-Heavy";
   background: #f7f7ff;
   margin-bottom: -4em;
   padding-bottom: 5em;
@@ -14,6 +14,7 @@
   color: #2db4b4;
   font-weight: 600;
   font-size: 1.1em;
+  padding-left: 0.2em;
 }
 
 .jumbotron-title {
@@ -23,18 +24,20 @@
 }
 
 .jumbotron-blurb1 {
-  font-weight: 100;
-  font-size: 1.1em;
+  font-weight: 400;
+  font-size: 1em;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   padding: 0 0.5em 0 0.2em;
+  font-family: "PingFang SC";
 }
 
 .jumbotron-blurb2 {
-  font-weight: 100;
+  font-weight: 400;
   font-size: 1.1em;
   margin-bottom: 3em;
   padding: 0 0.5em 0 0.2em;
+  font-family: "PingFang SC";
 }
 
 .jumbotron-content-container {

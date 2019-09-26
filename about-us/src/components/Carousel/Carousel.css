@@ -1,6 +1,6 @@
 .carousel-giant-container {
   background: #f7f7ff;
-  font-family: "Roboto";
+  font-family: "Avenir-Heavy";
   padding-top: 2em;
   padding-bottom: 4em;
 }
@@ -19,6 +19,7 @@
   padding-top: 0.8em;
   padding-bottom: 2em;
   padding-right: 1.3em;
+  font-family: "PingFang SC";
 }
 
 .carousel-component-container {

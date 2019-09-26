@@ -1,7 +1,7 @@
 .mission-content-big-container {
   background: #172a3a;
   padding: 3em 1em 4em 1em;
-  font-family: "Roboto";
+  font-family: "Avenir-Heavy";
   display: flex;
   flex-direction: column;
 }
@@ -18,10 +18,11 @@
 
 .mission-blurb {
   color: #f7f7ff;
-  font-weight: 100;
-  font-size: 1.1em;
+  font-weight: 400;
+  font-size: 1em;
   margin-bottom: 1em;
   margin-left: 0.3em;
+  font-family: "PingFang SC";
 }
 
 @media only screen and (min-width: 768px) {
