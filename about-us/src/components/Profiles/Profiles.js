@@ -43,6 +43,8 @@ const imgURLs = [
     path: require("../images/Profile/Elif.png"),
     id: 5,
     name: "Elif Ayca Afsar",
+    quote:
+      "”Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.”",
     linkedinURL: "https://www.linkedin.com/in/elif-ayca-afsar-44594a9b/",
     position: "Product Manager"
   },
@@ -52,6 +54,7 @@ const imgURLs = [
     name: "Tingting Lin",
     quote:
       "”If you are doing what you like, you will see yourself being passionate, energetic, and curious about your surroundings. You won't be able to stop thinking even when you are resting. This will motivate you to grow rapidly with the company you work for.”",
+    linkedinURL: "https://www.linkedin.com/in/tingting-lin-19737130/",
     position: "Manager, HR"
   },
   {
@@ -67,7 +70,7 @@ const imgURLs = [
     name: "Greg Tang",
     quote:
       "“Understand to achieve anything requires faith and belief in yourself, vision, hard work, determination, and dedication. Remember all things are possible for those who believe.“",
-    linkedinURL: "www.linkedin.com/in/gregory-tang-041127153",
+    linkedinURL: "https://www.linkedin.com/in/gregory-tang-041127153",
     position: "Software Engineer"
   },
   // {
@@ -101,6 +104,7 @@ const imgURLs = [
     name: "William Wu",
     quote:
       "“Stay Hungry. Stay Foolish. Push yourself. Stay eager to learn, take risks, and keep trying to do what others say can’t be done.“",
+    linkedinURL: "https://www.linkedin.com/in/jingwei940704/",
     position: "BD Associate"
   },
   {
