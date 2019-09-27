@@ -131,6 +131,9 @@
   h4 {
     margin-bottom: 0.5em;
   }
+  .h4-text{
+    margin-bottom: 0.5em;
+  }
   .company-contact-address-container {
     display: flex;
     flex-direction: row;

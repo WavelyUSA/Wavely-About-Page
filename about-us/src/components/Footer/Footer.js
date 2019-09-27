@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="company-contact-address-container">
             <div className="mobile-container">
               <Card.Text className="about-us-container info">
-                <h4 className="h4-text">Company</h4>
+                <p className="h4-text">Company</p>
                 <a
                   href="https://www.wavely.com/about"
                   className="about-us-info"
@@ -22,14 +22,14 @@ const Footer = () => {
                 </a>
               </Card.Text>
               <Card.Text className="contact-us-container info">
-                <h4 className="h4-text">Contact Us</h4>
+                <p className="h4-text">Contact Us</p>
                 <a href="mailto:help@wavely.com" className="contact-info">
                   help@wavely.com
                 </a>
               </Card.Text>
             </div>
             <Card.Text className="info address-info-container">
-              <h4 className="h4-text">Address</h4>
+              <p className="h4-text">Address</p>
               <p className="address-info">
                 10250 Constellation Blvd, Suite 100
               </p>
