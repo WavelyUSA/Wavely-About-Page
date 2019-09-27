@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import AboutJumbotron from "./components/Jumbotron/Jumbotron";
 import Mission from "./components/Mission/Mission";
