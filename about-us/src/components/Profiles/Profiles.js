@@ -28,7 +28,7 @@ const imgURLs = [
     quote:
       "“Working at Wavely is a blast because of all my great co-workers. Everyday we are working together to solve problems market pain points, advance our product, and increase our market share. Our office space in San Mateo is open and full of natural light, standing desks, and we are very pet-friendly.”",
     linkedinURL: "https://www.linkedin.com/in/david-kuo-81117351/",
-    position: "Director, BD"
+    position: "Senior Director, BD"
   },
   {
     path: require("../images/Profile/Matei.png"),
@@ -42,7 +42,7 @@ const imgURLs = [
   {
     path: require("../images/Profile/Elif.png"),
     id: 5,
-    name: "Elif Ayca",
+    name: "Elif Ayca Afsar",
     linkedinURL: "https://www.linkedin.com/in/elif-ayca-afsar-44594a9b/",
     position: "Product Manager"
   },
@@ -106,7 +106,7 @@ const imgURLs = [
   {
     path: require("../images/Profile/Summer.png"),
     id: 13,
-    name: "Summer Chun",
+    name: "Summer Xue",
     position: "Marketing Specialist"
   }
 ];
