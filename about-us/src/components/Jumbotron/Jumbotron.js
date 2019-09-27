@@ -14,8 +14,7 @@ const AboutJumbotron = () => {
             Wavely is changing the recruitment process with instant chat
             communication and advanced algorithm matching between candidates and
             job openings. We’re dedicated to supporting recruiters and
-            professionals so that they can find the perfect match quickly and on
-            the go.
+            professionals so they can quickly find the perfect match on the go.
           </div>
           <div className="jumbotron-blurb1">
             We envision a world where a job feels personal again. Where

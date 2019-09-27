@@ -58,6 +58,7 @@
   font-style: italic;
   width: 138%;
   text-align: center;
+  font-weight: lighter;
 }
 
 .profile-img-linkedin {
@@ -83,7 +84,6 @@
   }
   .profile-img-position {
     font-size: 1.05em;
-    font-weight: lighter;
   }
   .profile-img-linkedin {
     width: 32px;
