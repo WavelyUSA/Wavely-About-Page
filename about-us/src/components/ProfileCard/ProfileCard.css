@@ -63,14 +63,14 @@
 .profile-img-linkedin {
   background: #6c8ead;
   border-radius: 5px;
-  width: 25px;
+  width: 27px;
   margin-top: 0.3em;
   cursor: pointer;
 }
 
 @media only screen and (min-width: 445px) {
   .big-container {
-    flex: 0 1 47%;
+    flex: 0 1 42%;
   }
 }
 
@@ -78,7 +78,6 @@
   .big-container {
     flex: 0 1 29.5%;
   }
-
   .profile-img-name {
     font-size: 1.4em;
   }
@@ -87,7 +86,7 @@
     font-weight: lighter;
   }
   .profile-img-linkedin {
-    width: 38px;
+    width: 32px;
     margin-top: 0.5em;
   }
 }
