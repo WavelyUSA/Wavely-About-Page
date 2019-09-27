@@ -1,8 +1,8 @@
 .carousel-giant-container {
   background: #f7f7ff;
   font-family: "Avenir-Heavy";
-  padding-top: 2em;
-  padding-bottom: 4em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .our-team-text {
@@ -26,14 +26,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
 .carousel-picture-info-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding-top: 2em;
+}
+
+@media only screen and (min-width: 445px) {
+  .carousel-picture-info-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -44,15 +53,6 @@
     font-size: 1.1em;
     margin-left: 0.3em;
   }
-  .carousel-picture-info-container {
-    width: 80%;
-    margin-left: 1em;
-  }
-
-  .carousel-component-container {
-    display: flex;
-    flex-direction: row;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -62,8 +62,5 @@
   }
   .our-team-text {
     margin-left: 0.3em;
-  }
-  .carousel-picture-info-container {
-    width: 60%;
   }
 }

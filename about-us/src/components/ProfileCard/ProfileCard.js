@@ -1,5 +1,5 @@
 import React from "react";
-import "./CarouselSlide.css";
+import "./ProfileCard.css";
 
 class CarouselSlide extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class CarouselSlide extends React.Component {
         <img
           alt={this.props.id}
           src={this.props.url}
-          className="profile-img"
+          className={`profile-img profile-${this.props.id}`}
         ></img>
         <div className="profile-img-name">{this.props.name}</div>
         <div className="profile-img-position">{this.props.position}</div>

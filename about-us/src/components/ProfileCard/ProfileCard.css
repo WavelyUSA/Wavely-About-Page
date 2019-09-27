@@ -3,6 +3,7 @@
   align-items: center;
   flex-direction: column;
   font-family: "Avenir-Heavy";
+  margin-bottom: 4em;
 }
 
 .profile-img-position {
@@ -40,8 +41,8 @@
 }
 
 .profile-img {
-  width: 160px;
-  height: 160px;
+  width: 120px;
+  height: 120px;
 }
 
 .profile-img-name {
@@ -50,6 +51,7 @@
   font-size: 1.2em;
   width: 115%;
   text-align: center;
+  margin-top: 0.5em;
 }
 
 .profile-img-position {
@@ -66,16 +68,23 @@
   cursor: pointer;
 }
 
-@media only screen and (min-width: 768px) {
-  .profile-img {
-    width: 200px;
-    height: 200px;
+@media only screen and (min-width: 445px) {
+  .big-container {
+    flex: 0 1 47%;
   }
+}
+
+@media only screen and (min-width: 640px) {
+  .big-container {
+    flex: 0 1 29.5%;
+  }
+
   .profile-img-name {
-    font-size: 1.8em;
+    font-size: 1.4em;
   }
   .profile-img-position {
-    font-size: 1.5em;
+    font-size: 1.05em;
+    font-weight: lighter;
   }
   .profile-img-linkedin {
     width: 38px;
@@ -83,9 +92,8 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  .profile-img {
-    width: 250px;
-    height: 250px;
+@media only screen and (min-width: 960px) {
+  .big-container {
+    flex: 0 1 22.5%;
   }
 }

@@ -5,7 +5,7 @@ import AboutJumbotron from "./components/Jumbotron/Jumbotron";
 import Mission from "./components/Mission/Mission";
 import Ethics from "./components/Ethics/Ethics";
 import Investors from "./components/Investors/Investors";
-import Carousel from "./components/Carousel/Carousel";
+import Profiles from "./components/Profiles/Profiles";
 import Redirect from "./components/Redirect/Redirect";
 import Footer from "./components/Footer/Footer";
 
@@ -17,7 +17,7 @@ function App() {
       <Mission />
       <Ethics />
       <Investors />
-      <Carousel />
+      <Profiles />
 
       <Redirect />
       <Footer />

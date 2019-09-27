@@ -1,8 +1,6 @@
 import React from "react";
-import "./Carousel.css";
-import CarouselSlide from "../CarouselSlide/CarouselSlide";
-import CarouselArrow from "../CarouselArrow/CarouselArrow";
-import ProfileQuote from "../ProfileQuote/ProfileQuote";
+import "./Profiles.css";
+import CarouselSlide from "../ProfileCard/ProfileCard";
 
 const imgURLs = [
   {
@@ -115,33 +113,19 @@ const imgURLs = [
 
 class Carousel extends React.Component {
   state = {
-    currentImageIndex: 0,
     imgURLs: imgURLs
   };
-
-  previousSlide = () => {
-    const lastIndex = imgURLs.length - 1;
-    const { currentImageIndex } = this.state;
-    const shouldResetIndex = currentImageIndex === 0;
-    const index = shouldResetIndex ? lastIndex : currentImageIndex - 1;
-
-    this.setState({
-      currentImageIndex: index
-    });
-  };
-
-  nextSlide = () => {
-    const lastIndex = imgURLs.length - 1;
-    const { currentImageIndex } = this.state;
-    const shouldResetIndex = currentImageIndex === lastIndex;
-    const index = shouldResetIndex ? 0 : currentImageIndex + 1;
-
-    this.setState({
-      currentImageIndex: index
-    });
-  };
-
   render() {
+    const mappedProfiles = this.state.imgURLs.map(profile => (
+      <CarouselSlide
+        url={profile.path}
+        name={profile.name}
+        position={profile.position}
+        id={profile.id}
+        linkedinURL={profile.linkedinURL}
+      />
+    ));
+
     return (
       <div className="carousel-giant-container">
         <div className="our-team-text">Our Team</div>
@@ -152,33 +136,8 @@ class Carousel extends React.Component {
         </div>
         <div className="carousel-component-container">
           <div className="carousel-picture-info-container">
-            <CarouselArrow
-              direction="left"
-              clickFunction={this.previousSlide}
-              img={require("../images/left-arrow.svg")}
-            />
-
-            <CarouselSlide
-              url={this.state.imgURLs[this.state.currentImageIndex].path}
-              name={this.state.imgURLs[this.state.currentImageIndex].name}
-              position={
-                this.state.imgURLs[this.state.currentImageIndex].position
-              }
-              id={this.state.imgURLs[this.state.currentImageIndex].id}
-              linkedinURL={
-                this.state.imgURLs[this.state.currentImageIndex].linkedinURL
-              }
-            />
-
-            <CarouselArrow
-              direction="right"
-              clickFunction={this.nextSlide}
-              img={require("../images/right-arrow.svg")}
-            />
+            {mappedProfiles}
           </div>
-          <ProfileQuote
-            quote={this.state.imgURLs[this.state.currentImageIndex].quote}
-          />
         </div>
       </div>
     );
