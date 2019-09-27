@@ -1,19 +1,16 @@
+.banner-container {
+  text-align: center;
+}
+
 .banner-img {
-  width: 100%;
+  width: 97%;
   margin-top: 1.5em;
 }
 
 @media only screen and (min-width: 768px) {
   .banner-container {
-    width: 100%;
+    width: 115%;
     display: block;
     margin: auto;
-    margin-right: 0.5em;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .banner-container {
-    width: 115%;
   }
 }
