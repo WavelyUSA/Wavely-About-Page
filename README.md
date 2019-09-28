@@ -30,3 +30,24 @@ npm start
 npm run build
 serve -s build
 ```
+
+## Server Admin Testing And Access
+
+To manually update build files as an admin, follow the steps below:
+
+1. Open terminal, and cd into your ssh folder
+2. Log in as user with ```[user]@157.245.172.45```
+3. ```cd /home/[user]/Wavely-About-Page/```
+4. ```git pull```
+5. ```cd about-us/```
+6. ```sudo npm run build```
+7. ```cd /var/www/157.245.172.45/html```
+8. Remove the current build folder with ```sudo rm -r build/```
+9. Copy and paste the new build folder fomr the About Us page directory
+```
+sudo cp -a /home/[user]/Wavely-About-Page/about-us/build/ /var/www/157.245.172.45/html
+```
+10. Restart nginx
+```
+sudo systemctl restart nginx
+```
