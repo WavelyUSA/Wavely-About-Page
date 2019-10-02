@@ -12,7 +12,11 @@ class CarouselSlide extends React.Component {
         ></img>
         <div className="profile-img-name">{this.props.name}</div>
         <div className="profile-img-position">{this.props.position}</div>
-        <a href={this.props.linkedinURL}>
+        <a
+          href={this.props.linkedinURL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src={require("../images/linkedin-logo.png")}
             alt="linkedin-logo"
