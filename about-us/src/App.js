@@ -14,10 +14,9 @@ function App() {
       <NavBar />
       <AboutJumbotron />
       <Mission />
-      <Ethics />
-      <Investors />
+      {/* <Ethics /> */}
       <Profiles />
-
+      <Investors />
       <Redirect />
       <Footer />
     </div>

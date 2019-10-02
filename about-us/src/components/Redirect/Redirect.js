@@ -16,7 +16,7 @@ const Redirect = () => {
           <div className="title-text">Find your new job now!</div>
         </div>
         <div className="btn-container">
-          <a href="https://www.wavely.com/signup" className="href-sign-up-btn">
+          <a href="https://www.wavely.com/?tab=1" className="href-sign-up-btn">
             <button className="sign-up-now-btn">Sign up!</button>
           </a>
         </div>
