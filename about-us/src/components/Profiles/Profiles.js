@@ -105,7 +105,7 @@ const imgURLs = [
     quote:
       "“Stay Hungry. Stay Foolish. Push yourself. Stay eager to learn, take risks, and keep trying to do what others say can’t be done.“",
     linkedinURL: "https://www.linkedin.com/in/jingwei940704/",
-    position: "BD Associate"
+    position: "Associate, BD"
   },
   {
     path: require("../images/Profile/Summer.png"),

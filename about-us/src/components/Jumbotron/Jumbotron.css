@@ -3,24 +3,18 @@
   background: #f7f7ff;
 
   padding-bottom: 2em;
-  padding-top: 8em;
+  padding-top: 6em;
 }
 
 .all-text-container {
   margin: 0 0.8em 0 0.8em;
 }
 
-.about-word {
-  color: #2db4b4;
-  font-weight: 600;
-  font-size: 1.1em;
-  padding-left: 0.2em;
-}
-
 .jumbotron-title {
   line-height: 1.2;
   font-weight: 600;
   font-size: 2.2em;
+  color: #2db4b4;
 }
 
 .jumbotron-blurb1 {
