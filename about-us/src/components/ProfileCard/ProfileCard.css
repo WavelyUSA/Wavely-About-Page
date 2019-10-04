@@ -45,6 +45,12 @@
   height: 120px;
 }
 
+.profile-img:hover {
+  border-radius: 60px;
+  border: solid 3px #2db4b4;
+  cursor: pointer;
+}
+
 .profile-img-name {
   color: #2db4b4;
   font-weight: 600;
@@ -56,7 +62,7 @@
 
 .profile-img-position {
   font-style: italic;
-  width: 138%;
+  width: 100%;
   text-align: center;
   font-weight: lighter;
 }

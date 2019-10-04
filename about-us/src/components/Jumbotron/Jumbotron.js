@@ -5,7 +5,6 @@ const AboutJumbotron = () => {
   return (
     <div className="jumbotron-container">
       <div className="all-text-container">
-        <div className="about-word">About</div>
         <div className="jumbotron-content-container">
           <div className="jumbotron-title">
             Connecting people with jobs they love
