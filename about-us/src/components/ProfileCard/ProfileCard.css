@@ -48,7 +48,6 @@
 .profile-img:hover {
   border-radius: 60px;
   border: solid 3px #2db4b4;
-  cursor: pointer;
 }
 
 .profile-img-name {
