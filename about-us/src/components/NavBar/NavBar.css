@@ -11,6 +11,33 @@
 .wavely-text {
   height: 14px;
   width: 90px;
-  margin: 0.4em 0 0.4em 0.2em;
+  margin: 0.6em 0 0.5em 0.4em;
   cursor: pointer;
+}
+
+.navbar-links {
+  position: absolute;
+  top: 0.8em;
+  right: 1.6em;
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-home-text,
+.about-home-text {
+  font-size: 15px;
+  font-family: "PingFangSC-Semibold";
+  font-weight: 600;
+  color: hsla(0, 0%, 100%, 0.5);
+  padding-left: 1em;
+}
+
+.blog-home-text:hover,
+.about-home-text:hover {
+  color: #f7f7ff;
+}
+
+.blog-href:hover,
+.about-href:hover {
+  text-decoration: none;
 }
