@@ -12,6 +12,14 @@ const NavBar = () => {
           alt="wavely-text"
         />
       </a>
+      <div className="navbar-links">
+        <a className="blog-href" href="https://blog.wavely.com/">
+          <div className="blog-home-text">Blog Home</div>
+        </a>
+        <a className="about-href" href="http://157.245.172.45">
+          <div className="about-home-text">About Us</div>
+        </a>
+      </div>
     </Navbar>
   );
 };
