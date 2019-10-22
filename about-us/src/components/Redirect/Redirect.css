@@ -2,13 +2,13 @@
   background: #f7f7ff;
   margin: 0;
   width: 100%;
-  padding-top: 3em;
+  padding: 3em 0 3em 0;
 }
 
 .small-redirect-container {
   display: flex;
   flex-direction: column;
-  padding: 0 0 1em 0.75em;
+  padding-left: 0.75em;
 }
 
 .title-container {

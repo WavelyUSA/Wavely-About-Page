@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="banner-container">
       <img
-        src={require("../images/wavely-banner.png")}
+        src={require("../images/team-photo1.png")}
         className="banner-img"
         alt="banner-img"
       ></img>
