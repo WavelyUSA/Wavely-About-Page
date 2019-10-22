@@ -1,21 +1,19 @@
 .carousel-giant-container {
   background: #f7f7ff;
   font-family: "Avenir-Heavy";
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding: 6em 0 2em 0;
 }
 
 .our-team-text {
   color: #2db4b4;
   font-weight: 600;
   font-size: 1.5em;
-  padding-top: 1em;
-  padding-left: 0.6em;
+  padding-left: 0.7em;
 }
 
 .our-team-blurb {
   color: black;
-  padding-left: 1.3em;
+  padding-left: 1.2em;
   padding-top: 0.8em;
   padding-bottom: 2em;
   padding-right: 1.3em;
@@ -48,19 +46,16 @@
 @media only screen and (min-width: 768px) {
   .our-team-text {
     font-size: 2.2em;
+    padding-left: 0.5em;
   }
   .our-team-blurb {
     font-size: 1.1em;
-    margin-left: 0.3em;
+    padding-left: 1.05em;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .our-team-blurb {
     font-size: 1.3em;
-    padding-left: 1.8em;
-  }
-  .our-team-text {
-    margin-left: 0.3em;
   }
 }

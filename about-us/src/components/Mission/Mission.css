@@ -1,12 +1,9 @@
 .mission-content-big-container {
   background: #172a3a;
-  padding: 4em 1em 5em 1.2em;
+  padding: 6em 1em 6em 1.1em;
   font-family: "Avenir-Heavy";
   display: flex;
   flex-direction: column;
-}
-.mission-content-small-container {
-  margin-top: 1em;
 }
 
 .mission-title-text {
@@ -25,11 +22,11 @@
   font-family: "PingFang SC";
 }
 
-@media only screen and (min-width: 575px) {
+/* @media only screen and (min-width: 575px) {
   .mission-content-big-container {
     padding: 4em 1em 6em 1.2em;
   }
-}
+} */
 
 @media only screen and (min-width: 768px) {
   .mission-content-big-container {
@@ -49,9 +46,9 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .mission-content-big-container {
+  /* .mission-content-big-container {
     padding: 3em 1.8em 4em 1.8em;
-  }
+  } */
   .mission-title-text {
     margin-bottom: 0.8em;
   }
