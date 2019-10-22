@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProfileCard.css";
 
-class CarouselSlide extends React.Component {
+class ProfileCard extends React.Component {
   render() {
     return (
       <div className="big-container animation fadeIn">
@@ -18,7 +18,7 @@ class CarouselSlide extends React.Component {
           rel="noopener noreferrer"
         >
           <img
-            src={require("../images/linkedin-logo.png")}
+            src={require("../../images/linkedin-logo.png")}
             alt="linkedin-logo"
             className="profile-img-linkedin"
           />
@@ -28,4 +28,4 @@ class CarouselSlide extends React.Component {
   }
 }
 
-export default CarouselSlide;
+export default ProfileCard;

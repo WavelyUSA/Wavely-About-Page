@@ -1,6 +1,6 @@
 import React from "react";
 import "./Profiles.css";
-import CarouselSlide from "../ProfileCard/ProfileCard";
+import ProfileCard from "./ProfileCard/ProfileCard";
 
 const imgURLs = [
   {
@@ -121,7 +121,7 @@ class Carousel extends React.Component {
   };
   render() {
     const mappedProfiles = this.state.imgURLs.map(profile => (
-      <CarouselSlide
+      <ProfileCard
         url={profile.path}
         name={profile.name}
         position={profile.position}

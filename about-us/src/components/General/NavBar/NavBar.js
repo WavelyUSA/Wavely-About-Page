@@ -7,7 +7,7 @@ const NavBar = () => {
     <Navbar className="navBar-container-small">
       <a href="https://www.wavely.com">
         <img
-          src={require("../images/wavely-text.png")}
+          src={require("../../images/wavely-text.png")}
           className="d-inline-block align-top wavely-text"
           alt="wavely-text"
         />
