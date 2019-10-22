@@ -42,28 +42,28 @@ const Footer = () => {
           <Card.Text className="social-media-logos">
             <a href="https://www.instagram.com/wavelyapp/">
               <img
-                src={require("../images/instagram-logo.png")}
+                src={require("../../images/instagram-logo.png")}
                 alt="instagram-logo"
                 className="social-media-img"
               />
             </a>
             <a href="https://www.facebook.com/wavelyapp">
               <img
-                src={require("../images/facebook-logo.png")}
+                src={require("../../images/facebook-logo.png")}
                 alt="facebook-logo"
                 className="social-media-img"
               />
             </a>
             <a href="https://www.linkedin.com/company/wavelyapp">
               <img
-                src={require("../images/linkedin-logo.png")}
+                src={require("../../images/linkedin-logo.png")}
                 alt="linkedin-logo"
                 className="social-media-img twitter-logo"
               />
             </a>
             <a href="https://twitter.com/wavely_app">
               <img
-                src={require("../images/twitter-logo.png")}
+                src={require("../../images/twitter-logo.png")}
                 alt="twitter-logo"
                 className="social-media-img"
               />
@@ -75,7 +75,7 @@ const Footer = () => {
         <span className="bottom-footer-container">
           <a a href="https://www.wavely.com">
             <img
-              src={require("../images/wavely-seal.png")}
+              src={require("../../images/wavely-seal.png")}
               alt="wavely-seal"
               className="wavely-seal-img"
             ></img>

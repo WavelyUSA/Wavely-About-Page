@@ -1,7 +1,7 @@
 import React from "react";
 import "./Ethics.css";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import EthicsGridRow from "../EthicsGridRow/EthicsGridRow";
+import EthicsGridRow from "./EthicsGridRow/EthicsGridRow";
 
 const Ethics = () => {
   return (
