@@ -61,7 +61,7 @@ const Footer = () => {
                 className="social-media-img twitter-logo"
               />
             </a>
-            <a href="https://twitter.com/AppWavely">
+            <a href="https://twitter.com/wavely_app">
               <img
                 src={require("../images/twitter-logo.png")}
                 alt="twitter-logo"
