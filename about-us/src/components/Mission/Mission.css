@@ -1,7 +1,7 @@
 .mission-content-big-container {
   background: #172a3a;
   padding: 6em 1em 6em 1.1em;
-  font-family: "Avenir-Heavy";
+  font-family: "Avenir-Black";
   display: flex;
   flex-direction: column;
 }
@@ -19,7 +19,7 @@
   font-size: 1em;
   margin-bottom: 1em;
   margin-left: 0.3em;
-  font-family: "PingFang SC";
+  font-family: "Avenir-Book";
 }
 
 /* @media only screen and (min-width: 575px) {

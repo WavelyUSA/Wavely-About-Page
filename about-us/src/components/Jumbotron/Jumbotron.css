@@ -1,5 +1,5 @@
 .jumbotron-container {
-  font-family: "Avenir-Heavy";
+  font-family: "Avenir-Black";
   /* background: #f7f7ff; */
   padding-bottom: 6em;
   padding-top: 8em;
@@ -27,14 +27,14 @@
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   padding: 0 0.5em 0 0.2em;
-  font-family: "PingFang SC";
+  font-family: "Avenir-Book";
 }
 
 .jumbotron-blurb2 {
   font-weight: 400;
   font-size: 1em;
   padding: 0 0.5em 0 0.2em;
-  font-family: "PingFang SC";
+  font-family: "Avenir-Book";
 }
 
 @media only screen and (min-width: 768px) {
