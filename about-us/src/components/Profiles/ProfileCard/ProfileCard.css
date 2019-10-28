@@ -8,6 +8,7 @@
 
 .profile-img-position {
   font-weight: 600;
+  font-family: "Avenir-Book";
 }
 
 .animation {
@@ -45,13 +46,13 @@
   height: 120px;
 }
 
-.profile-img:hover {
+/* .profile-img:hover {
   border-radius: 60px;
   border: solid 3px #2db4b4;
-}
+} */
 
 .profile-img-name {
-  color: #2db4b4;
+  color: #00aaaa;
   font-weight: 600;
   font-size: 1.2em;
   width: 115%;
@@ -72,6 +73,10 @@
   width: 27px;
   margin-top: 0.3em;
   cursor: pointer;
+}
+
+.profile-img-linkedin:hover {
+  background: #79a5ce;
 }
 
 @media only screen and (min-width: 445px) {

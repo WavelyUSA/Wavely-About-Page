@@ -25,7 +25,7 @@
 }
 
 .title-text {
-  font-family: "Avenir-Heavy";
+  font-family: "Avenir-Black";
   font-size: 1.4em;
   font-weight: bold;
   color: #172a3a;
@@ -49,7 +49,7 @@
   cursor: pointer;
   border: 0;
   padding: 0;
-  background: #2db4b4;
+  background: #00aaaa;
   border-radius: 16px;
   margin-top: 1em;
 }
@@ -61,7 +61,7 @@
 
 .below-btn-text1,
 .below-btn-text2 {
-  font-family: "PingFang SC";
+  font-family: "Avenir-Book";
   font-size: 0.8em;
   color: #172a3a;
   text-align: center;

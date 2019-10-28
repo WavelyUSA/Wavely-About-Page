@@ -1,6 +1,5 @@
 .jumbotron-container {
-  font-family: "Avenir-Heavy";
-  /* background: #f7f7ff; */
+  font-family: "Avenir-Black";
   padding-bottom: 6em;
   padding-top: 8em;
   background-image: url("../images/transparent-ayca.png");
@@ -18,7 +17,7 @@
   line-height: 1.2;
   font-weight: 600;
   font-size: 2.2em;
-  color: #2db4b4;
+  color: #00aaaa;
 }
 
 .jumbotron-blurb1 {
@@ -27,14 +26,14 @@
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   padding: 0 0.5em 0 0.2em;
-  font-family: "PingFang SC";
+  font-family: "Avenir-Book";
 }
 
 .jumbotron-blurb2 {
   font-weight: 400;
   font-size: 1em;
   padding: 0 0.5em 0 0.2em;
-  font-family: "PingFang SC";
+  font-family: "Avenir-Book";
 }
 
 @media only screen and (min-width: 768px) {
