@@ -4,20 +4,82 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Wavely About Us!" />
+    <meta name="description" content="Wavely About Us" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <!-- <link
+    <link
       rel="shortcut icon"
       href="http://blog.wavely.com/wavely-favicon.ico"
-    /> -->
+    />
     <title>Wavely About Us</title>
   </head>
   <body>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-147216335-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-147216335-2");
+    </script>
+    <script>
+      !(function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "226316574666195");
+      fbq("track", "PageView");
+    </script>
+    <script type="text/javascript">
+      var _dcq = _dcq || [];
+      var _dcs = _dcs || {};
+      _dcs.account = "7980336";
+
+      (function() {
+        var dc = document.createElement("script");
+        dc.type = "text/javascript";
+        dc.async = true;
+        dc.src = "//tag.getdrip.com/7980336.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(dc, s);
+      })();
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        src="https://www.facebook.com/tr?id=226316574666195&ev=PageView
+        &noscript=1"
+      />
+    </noscript>
     <div id="root"></div>
   </body>
 </html>
