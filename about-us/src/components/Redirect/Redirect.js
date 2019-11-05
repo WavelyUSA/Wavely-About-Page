@@ -21,8 +21,10 @@ const Redirect = () => {
           </a>
         </div>
         <div className="below-btn-text-container">
-          <div className="below-btn-text1">Looking to hire amazing people?</div>
-          <div className="below-btn-text2">Create an employer account.</div>
+          <div className="below-btn-text1">
+            Your ideal match is waiting for you!
+          </div>
+          <div className="below-btn-text2">Sign up to view your matches!</div>
         </div>
       </Container>
     </Jumbotron>
