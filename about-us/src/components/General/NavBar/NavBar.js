@@ -14,10 +14,10 @@ const NavBar = () => {
       </a>
       <div className="navbar-links">
         <a className="blog-href" href="https://blog.wavely.com/">
-          <div className="blog-home-text">Blog Home</div>
+          <div className="blog-home-text">Blog</div>
         </a>
-        <a className="about-href" href="http://about.wavely.com/">
-          <div className="about-home-text">About Us</div>
+        <a className="about-href" href="https://about.wavely.com/">
+          <div className="about-home-text">About</div>
         </a>
       </div>
     </Navbar>
