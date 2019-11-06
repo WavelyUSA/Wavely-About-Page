@@ -78,6 +78,15 @@
   font-weight: lighter;
 }
 
+.about-us-info:hover,
+.blog-link:hover,
+.h4-text:hover,
+.contact-info:hover,
+.footer-bottom-text:hover {
+  color: white;
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 320px) {
   .footer {
     padding-top: 30px;
@@ -131,7 +140,7 @@
   h4 {
     margin-bottom: 0.5em;
   }
-  .h4-text{
+  .h4-text {
     margin-bottom: 0.5em;
   }
   .company-contact-address-container {
