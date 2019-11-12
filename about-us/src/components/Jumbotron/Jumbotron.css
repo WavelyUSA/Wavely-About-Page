@@ -11,8 +11,9 @@
 }
 
 .jumbo-line {
-  width: 80px;
+  width: 70px;
   border: 2px solid #00ddd0;
+  margin: auto;
   margin-top: 1em;
 }
 
@@ -89,6 +90,12 @@
     font-size: 0.7em;
     margin-top: 0.7em;
   }
+  .jumbo-line {
+    width: 65px;
+    margin: 0;
+    margin-top: 1em;
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -130,6 +137,9 @@
   }
   .jumbotron-below-img-text {
     margin-top: 0.7em;
+  }
+  .jumbo-line {
+    width: 90px;
   }
 }
 
