@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../Banner/Banner";
+import Banner2 from "../Banner2/Banner2";
 import "./Mission.css";
 
 const Mission = () => {
@@ -7,8 +7,7 @@ const Mission = () => {
     <div className="mission-container">
       <div className="mission-content-big-container">
         <div className="mission-content-small-container">
-          <div className="mission-title-text">Our Story</div>
-
+          <div className="mission-title-text1">Our Story</div>
           <div className="mission-blurb">
             We spoke with hundreds of entrepreneurs and we heard how hard it was
             to grow a startup team, and set out to create a recruitment platform
@@ -38,7 +37,10 @@ const Mission = () => {
             waving hello.
           </div>
         </div>
-        <Banner />
+        <div className="mission-img-container">
+          <div className="mission-title-text2">Our Story</div>
+          <Banner2 />
+        </div>
       </div>
     </div>
   );

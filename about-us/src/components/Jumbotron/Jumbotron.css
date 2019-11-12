@@ -16,6 +16,7 @@
   font-size: 1.8em;
   text-transform: uppercase;
   text-align: center;
+  padding: 0 0.3em 0 0.3em;
 }
 
 .teal-title-text {
@@ -55,6 +56,7 @@
   .jumbotron-title {
     font-size: 1.5em;
     text-align: left;
+    padding: 0;
   }
   .jumbotron-img-container {
     width: 1000px;

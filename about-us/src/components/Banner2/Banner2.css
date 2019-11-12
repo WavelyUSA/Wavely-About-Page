@@ -1,0 +1,24 @@
+.banner-container2 {
+  text-align: center;
+  width: 100%;
+}
+
+.banner-img2 {
+  width: 97%;
+}
+
+@media only screen and (min-width: 768px) {
+  .banner-container2 {
+    display: block;
+    margin: auto;
+  }
+  .banner-img2 {
+    width: 301px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .banner-img2 {
+    width: 401px;
+  }
+}
