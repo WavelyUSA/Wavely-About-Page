@@ -63,18 +63,23 @@
   width: 100%;
   text-align: center;
   font-weight: lighter;
+  font-size: 0.9em;
 }
 
 .profile-img-linkedin {
   background: rgb(66, 65, 65);
   border-radius: 10px;
   width: 27px;
+  z-index: 2;
   margin-top: 0.3em;
   cursor: pointer;
+  position: relative;
+  top: -90px;
+  right: -45px;
 }
 
 .profile-img-linkedin:hover {
-  background: #79a5ce;
+  background: #00ddd0;
 }
 
 @media only screen and (min-width: 445px) {
@@ -94,8 +99,9 @@
     font-size: 1.05em;
   }
   .profile-img-linkedin {
-    width: 32px;
-    margin-top: 0.5em;
+    width: 30px;
+    position: relative;
+    top: -100px;
   }
 }
 

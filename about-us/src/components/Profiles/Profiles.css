@@ -7,8 +7,9 @@
 .our-team-text {
   color: #fff;
   font-weight: 600;
-  font-size: 1.5em;
-  padding-left: 0.7em;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .our-team-blurb {
@@ -26,6 +27,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin-top: 2em;
 }
 
 .carousel-picture-info-container {
@@ -45,8 +47,9 @@
 
 @media only screen and (min-width: 768px) {
   .our-team-text {
-    font-size: 2.2em;
-    padding-left: 0.5em;
+    font-size: 1.5em;
+    padding-left: 2.5em;
+    text-align: left;
   }
   .our-team-blurb {
     font-size: 1.1em;
@@ -54,8 +57,24 @@
   }
 }
 
+@media only screen and (min-width: 830px) {
+  .our-team-text {
+    font-size: 1.6em;
+  }
+}
+@media only screen and (min-width: 970px) {
+  .our-team-text {
+    font-size: 1.8em;
+  }
+}
 @media only screen and (min-width: 1024px) {
-  .our-team-blurb {
-    font-size: 1.3em;
+  .our-team-text {
+    font-size: 2.2em;
+  }
+}
+
+@media only screen and (min-width: 1296px) {
+  .our-team-text {
+    font-size: 2.3em;
   }
 }
