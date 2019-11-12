@@ -2,13 +2,13 @@
   background: #121212;
   margin: 0;
   width: 100%;
-  padding: 3em 0 3em 0;
+  padding: 3em 1.2em 3em 1.2em;
+  border-bottom: 1px solid #494848;
 }
 
 .small-redirect-container {
   display: flex;
   flex-direction: column;
-  padding-left: 0.75em;
 }
 
 .title-container {
@@ -17,7 +17,9 @@
   align-items: center;
   width: 90%;
   justify-content: center;
-  margin-left: 0.4em;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0.3em 0 0.3em;
 }
 
 .green-wavely-seal {
@@ -29,7 +31,7 @@
   font-size: 1.4em;
   font-weight: bold;
   color: #fff;
-  margin-left: 0.8em;
+
   line-height: 1.1em;
   text-transform: uppercase;
 }
@@ -42,7 +44,7 @@
 .sign-up-now-btn {
   font-family: "Avenir-Heavy";
   font-weight: bold;
-  width: 30%;
+  width: 150px;
   color: #fff;
   font-size: 1em;
   line-height: 2em;
@@ -52,16 +54,16 @@
   padding: 0;
   background: #00ddd0;
   border-radius: 16px;
-  margin-top: 1em;
+  margin-top: 1.5em;
   text-transform: uppercase;
 }
 
 .below-btn-text1 {
   font-family: "Avenir-Book";
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #fff;
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -73,27 +75,18 @@
     justify-content: center;
   }
   .title-text {
-    font-size: 1.8em;
+    font-size: 2em;
   }
   .sign-up-now-btn {
-    width: 25%;
-    font-size: 1.5em;
+    width: 255px;
+    font-size: 1.8em;
+    border-radius: 30px;
   }
 
   .small-redirect-container {
     margin-top: 1em;
   }
-  .below-btn-text1,
-  .below-btn-text2 {
-    font-size: 1em;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .title-text {
-    font-size: 2.2em;
-  }
-  .sign-up-now-btn {
-    font-size: 1.8em;
+  .below-btn-text1 {
+    font-size: 1.5em;
   }
 }
