@@ -1,5 +1,6 @@
 .banner-container {
   text-align: center;
+  width: 100%;
 }
 
 .banner-img {
@@ -9,7 +10,6 @@
 
 @media only screen and (min-width: 768px) {
   .banner-container {
-    width: 115%;
     display: block;
     margin: auto;
   }

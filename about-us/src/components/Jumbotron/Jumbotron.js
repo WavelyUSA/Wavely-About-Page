@@ -1,5 +1,6 @@
 import React from "react";
 import "./Jumbotron.css";
+import Banner from "../Banner/Banner";
 
 const AboutJumbotron = () => {
   return (
@@ -7,7 +8,8 @@ const AboutJumbotron = () => {
       <div className="all-text-container">
         <div className="jumbotron-content-container">
           <div className="jumbotron-title">
-            Connecting people with jobs they love
+            Connecting <span className="teal-title-text">people</span> with jobs
+            they <span className="teal-title-text">love</span>
           </div>
           <div className="jumbotron-blurb1">
             We envision a world where a job feels personal again. Where
@@ -26,7 +28,10 @@ const AboutJumbotron = () => {
             Because we do our best work when we’re with people we believe in and
             trust.
           </div>
-          <div className="jumbotron-blurb2">
+        </div>
+        <div className="jumbotron-img-container">
+          <Banner />
+          <div className="jumbotron-below-img-text">
             Let’s build the future of work together.
           </div>
         </div>

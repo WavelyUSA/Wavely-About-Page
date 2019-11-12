@@ -9,6 +9,7 @@
 .profile-img-position {
   font-weight: 600;
   font-family: "Avenir-Book";
+  color: hsla(0, 0%, 100%, 0.5);
 }
 
 .animation {
@@ -44,15 +45,12 @@
 .profile-img {
   width: 120px;
   height: 120px;
+  border-radius: 60px;
+  border: solid 3px #00ddd0;
 }
 
-/* .profile-img:hover {
-  border-radius: 60px;
-  border: solid 3px #2db4b4;
-} */
-
 .profile-img-name {
-  color: #00aaaa;
+  color: #fff;
   font-weight: 600;
   font-size: 1.2em;
   width: 115%;
@@ -68,8 +66,8 @@
 }
 
 .profile-img-linkedin {
-  background: #6c8ead;
-  border-radius: 5px;
+  background: rgb(66, 65, 65);
+  border-radius: 10px;
   width: 27px;
   margin-top: 0.3em;
   cursor: pointer;

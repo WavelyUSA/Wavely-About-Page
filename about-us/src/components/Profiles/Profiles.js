@@ -133,11 +133,6 @@ class Carousel extends React.Component {
     return (
       <div className="carousel-giant-container">
         <div className="our-team-text">Our Team</div>
-        <div className="our-team-blurb">
-          It takes exceptional individuals to build software that changes lives.
-          Wavely is proud to have some of the most talented and hard-working
-          people around. Come meet our team!
-        </div>
         <div className="carousel-component-container">
           <div className="carousel-picture-info-container">
             {mappedProfiles}

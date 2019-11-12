@@ -8,23 +8,13 @@ const Redirect = () => {
     <Jumbotron fluid className="big-redirect-container">
       <Container className="small-redirect-container">
         <div className="title-container">
-          <img
-            alt="wavely-seal"
-            src={require("../images/green-wavely-seal.png")}
-            className="green-wavely-seal"
-          />
-          <div className="title-text">Find your new job now!</div>
+          <div className="title-text">Your ideal match is waiting for you!</div>
         </div>
+        <div className="below-btn-text1">Sign up to view your messages!</div>
         <div className="btn-container">
           <a href="https://www.wavely.com/?tab=1" className="href-sign-up-btn">
             <button className="sign-up-now-btn">Sign up!</button>
           </a>
-        </div>
-        <div className="below-btn-text-container">
-          <div className="below-btn-text1">
-            Your ideal match is waiting for you!
-          </div>
-          <div className="below-btn-text2">Sign up to view your matches!</div>
         </div>
       </Container>
     </Jumbotron>

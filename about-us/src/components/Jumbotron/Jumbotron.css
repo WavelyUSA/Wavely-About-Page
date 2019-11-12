@@ -2,52 +2,159 @@
   font-family: "Avenir-Black";
   padding-bottom: 6em;
   padding-top: 8em;
-  background-image: url("../images/transparent-ayca.png");
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
+  background: #121212;
+  color: #fff;
 }
 
 .all-text-container {
-  margin: 0 0.8em 0 1.1em;
+  padding: 0 1.2em 0 1.2em;
 }
 
 .jumbotron-title {
   line-height: 1.2;
   font-weight: 600;
-  font-size: 2.2em;
-  color: #00aaaa;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.teal-title-text {
+  color: #00ddd0;
 }
 
 .jumbotron-blurb1 {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 0.9em;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  padding: 0 0.5em 0 0.2em;
+  padding: 0 0.4em 0 0.2em;
   font-family: "Avenir-Book";
+  text-align: center;
 }
 
 .jumbotron-blurb2 {
   font-weight: 400;
-  font-size: 1em;
-  padding: 0 0.5em 0 0.2em;
+  font-size: 0.9em;
+  padding: 0 0.4em 0 0.2em;
   font-family: "Avenir-Book";
+  text-align: center;
+}
+
+.jumbotron-below-img-text {
+  font-family: "Avenir-Book";
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-top: 1em;
+}
+
+.jumbotron-img-container {
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
-  .about-word {
-    font-size: 1.3em;
-  }
   .jumbotron-title {
-    font-size: 2.5em;
+    font-size: 1.5em;
+    text-align: left;
+  }
+  .jumbotron-img-container {
+    width: 1000px;
+    padding-left: 3em;
   }
   .jumbotron-blurb1,
   .jumbotron-blurb2 {
-    font-size: 1.1em;
+    font-size: 0.7em;
     margin-left: 0.3em;
     padding: 0;
-    width: 85%;
+    width: 100%;
+    text-align: left;
+  }
+  .all-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 4em 0 4em;
+  }
+  .jumbotron-content-container {
+    width: 135%;
+  }
+  .jumbotron-below-img-text {
+    font-size: 0.7em;
+    margin-top: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .jumbotron-blurb1,
+  .jumbotron-blurb2,
+  .jumbotron-below-img-text {
+    font-size: 0.75em;
+  }
+}
+
+@media only screen and (min-width: 830px) {
+  .jumbotron-title {
+    font-size: 1.6em;
+  }
+  .jumbotron-blurb1,
+  .jumbotron-blurb2,
+  .jumbotron-below-img-text {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 970px) {
+  .jumbotron-title {
+    font-size: 1.8em;
+  }
+  .jumbotron-blurb1,
+  .jumbotron-blurb2,
+  .jumbotron-below-img-text {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .jumbotron-title {
+    font-size: 2.2em;
+  }
+  .jumbotron-img-container {
+    width: 1200px;
+  }
+  .jumbotron-below-img-text {
+    margin-top: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 1093px) {
+  .jumbotron-blurb1,
+  .jumbotron-blurb2,
+  .jumbotron-below-img-text {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1162px) {
+  .jumbotron-blurb1,
+  .jumbotron-blurb2,
+  .jumbotron-below-img-text {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (min-width: 1230px) {
+  .jumbotron-blurb1,
+  .jumbotron-blurb2,
+  .jumbotron-below-img-text {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 1296px) {
+  .jumbotron-title {
+    font-size: 2.3em;
+  }
+  .jumbotron-blurb1,
+  .jumbotron-blurb2,
+  .jumbotron-below-img-text {
+    font-size: 1.3em;
   }
 }

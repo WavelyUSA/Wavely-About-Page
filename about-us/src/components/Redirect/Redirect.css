@@ -1,5 +1,5 @@
 .big-redirect-container {
-  background: #f7f7ff;
+  background: #121212;
   margin: 0;
   width: 100%;
   padding: 3em 0 3em 0;
@@ -28,9 +28,10 @@
   font-family: "Avenir-Black";
   font-size: 1.4em;
   font-weight: bold;
-  color: #172a3a;
+  color: #fff;
   margin-left: 0.8em;
   line-height: 1.1em;
+  text-transform: uppercase;
 }
 
 .btn-container {
@@ -42,32 +43,25 @@
   font-family: "Avenir-Heavy";
   font-weight: bold;
   width: 30%;
-  color: #172a3a;
-  font-size: 1.1em;
+  color: #fff;
+  font-size: 1em;
   line-height: 2em;
   outline: none;
   cursor: pointer;
   border: 0;
   padding: 0;
-  background: #00aaaa;
+  background: #00ddd0;
   border-radius: 16px;
   margin-top: 1em;
+  text-transform: uppercase;
 }
 
-.sign-up-now-btn:hover {
-  background: #172a3a;
-  color: #f7f7ff;
-}
-
-.below-btn-text1,
-.below-btn-text2 {
+.below-btn-text1 {
   font-family: "Avenir-Book";
   font-size: 0.8em;
-  color: #172a3a;
+  color: #fff;
   text-align: center;
-}
-.below-btn-text2 {
-  margin-top: 0.1em;
+  margin-top: 2em;
 }
 
 @media only screen and (min-width: 768px) {
