@@ -56,6 +56,11 @@
   text-transform: uppercase;
 }
 
+.sign-up-now-btn:hover {
+  background: #fff;
+  color: #00ddd0;
+}
+
 .below-btn-text1 {
   font-family: "Avenir-Book";
   font-size: 0.9em;

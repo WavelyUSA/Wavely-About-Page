@@ -10,6 +10,12 @@
   padding: 0 1.2em 0 1.2em;
 }
 
+.jumbo-line {
+  width: 80px;
+  border: 2px solid #00ddd0;
+  margin-top: 1em;
+}
+
 .jumbotron-title {
   line-height: 1.2;
   font-weight: 600;
@@ -142,14 +148,6 @@
     font-size: 1.1em;
   }
 }
-
-@media only screen and (min-width: 1230px) {
-  .jumbotron-blurb1,
-  .jumbotron-blurb2,
-  .jumbotron-below-img-text {
-    font-size: 1.2em;
-  }
-}
 @media only screen and (min-width: 1296px) {
   .jumbotron-title {
     font-size: 2.3em;
@@ -157,6 +155,6 @@
   .jumbotron-blurb1,
   .jumbotron-blurb2,
   .jumbotron-below-img-text {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }

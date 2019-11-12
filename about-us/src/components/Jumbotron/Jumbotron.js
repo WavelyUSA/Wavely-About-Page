@@ -11,6 +11,7 @@ const AboutJumbotron = () => {
             Connecting <span className="teal-title-text">people</span> with jobs
             they <span className="teal-title-text">love</span>
           </div>
+          <div className="jumbo-line" />
           <div className="jumbotron-blurb1">
             We envision a world where a job feels personal again. Where
             businesses and tech bring people together - not apart.
