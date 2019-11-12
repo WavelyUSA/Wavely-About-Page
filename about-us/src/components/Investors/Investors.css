@@ -12,7 +12,9 @@
 .investors-title {
   font-weight: bold;
   margin-bottom: 1em;
-  margin-left: 0.5em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.8em;
 }
 
 .below-investors-title-container {
@@ -56,24 +58,41 @@
 
 @media only screen and (min-width: 768px) {
   .investors-big-container {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding: 4em;
   }
+  .investors-title {
+    font-size: 1.5em;
+    text-align: start;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  .ggv-capital-img,
+  .goldman-sachs-img {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 830px) {
+  .investors-title {
+    font-size: 1.6em;
+  }
+}
+@media only screen and (min-width: 970px) {
+  .investors-title {
+    font-size: 1.8em;
+  }
+}
+@media only screen and (min-width: 1024px) {
   .investors-title {
     font-size: 2.2em;
   }
   .ggv-capital-img,
   .goldman-sachs-img {
-    width: 250px;
+    width: 280px;
   }
 }
-@media only screen and (min-width: 1024px) {
-  .below-investors-title-container {
-    padding-left: 3em;
-    padding-right: 3em;
-  }
-  .ggv-capital-img,
-  .goldman-sachs-img {
-    width: 300px;
+
+@media only screen and (min-width: 1296px) {
+  .investors-title {
+    font-size: 2.3em;
   }
 }
