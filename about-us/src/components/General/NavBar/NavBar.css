@@ -18,29 +18,25 @@
 .navbar-links {
   position: absolute;
   top: 0.8em;
-  right: 1.4em;
+  right: 0.1em;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  width: 230px;
 }
 
-.blog-home-text,
-.homepage-home-text,
-.about-home-text {
-  font-size: 15px;
+.blog-href,
+.homepage-href,
+.about-href {
+  font-size: 16px;
   font-family: "PingFangSC-Semibold";
   font-weight: 600;
   color: hsla(0, 0%, 100%, 0.5);
-  padding-left: 2em;
-}
-
-.blog-home-text:hover,
-.homepage-home-text:hover,
-.about-home-text:hover {
-  color: #f7f7ff;
 }
 
 .blog-href:hover,
 .homepage-href:hover,
 .about-href:hover {
   text-decoration: none;
+  color: #f7f7ff;
 }
