@@ -16,6 +16,9 @@ const NavBar = () => {
         <a className="blog-href" href="https://blog.wavely.com/">
           <div className="blog-home-text">Blog</div>
         </a>
+        <a className="homepage-href" href="https://www.wavely.com/">
+          <div className="homepage-home-text">Home</div>
+        </a>
         <a className="about-href" href="https://about.wavely.com/">
           <div className="about-home-text">About</div>
         </a>
