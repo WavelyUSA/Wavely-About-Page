@@ -42,7 +42,7 @@ h4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 254px;
+  width: 270px;
 }
 
 .la-address,
@@ -67,11 +67,13 @@ h4 {
   font-weight: lighter;
 }
 
-.about-us-info {
+.about-us-info,
+.product-intro {
   margin-bottom: 10px;
 }
 
-.blog-link {
+.blog-link,
+.onboard-employer {
   margin-top: 5px;
 }
 
@@ -90,7 +92,6 @@ h4 {
 }
 
 .social-media-img {
-  display: inline-block;
   margin: -12px 0 5px;
   border-radius: 100%;
   cursor: pointer;
@@ -111,7 +112,8 @@ h4 {
   width: 100%;
 }
 
-.about-us-container {
+.about-us-container,
+.service-container {
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
@@ -184,30 +186,31 @@ h4 {
 }
 
 @media only screen and (min-width: 768px) {
-  .info-big-div {
-    height: 135px;
-  }
   .footer {
-    padding-top: 40px;
+    padding: 3em 3.5em 0 3.5em;
   }
   .info-small-container {
     display: flex;
     flex-direction: row;
     font-size: 11px;
-    max-width: 85%;
   }
   .social-media-logos {
-    display: inline-block;
-    position: relative;
-    top: 0.2em;
-    width: 40%;
-    margin: 0;
     order: 2;
+    width: 40%;
   }
+
   .social-media-img {
-    width: 42px;
-    height: 42px;
+    width: 44px;
+    height: 44px;
   }
+
+  .twitter-logo {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 12px;
+    margin-right: 5px;
+  }
+
   .terms-container {
     font-size: 10px;
     width: 100%;
@@ -221,15 +224,20 @@ h4 {
   }
   .mobile-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
   }
   .contact-us-container {
     margin-top: 0;
   }
   .address-info-container {
-    width: 64%;
-    margin-left: 5em;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 0;
+  }
+  .address-info {
+    line-height: 17px;
+    margin-bottom: 14px;
   }
   .h4-text {
     font-size: 1.4em;
@@ -238,8 +246,7 @@ h4 {
     order: 1;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0;
+    padding: 0 0 2.5em 0;
     width: 100%;
   }
 }
@@ -268,9 +275,6 @@ h4 {
 }
 
 @media only screen and (min-width: 1024px) {
-  .info-big-div {
-    height: 200px;
-  }
   .footer {
     padding-top: 48px;
   }

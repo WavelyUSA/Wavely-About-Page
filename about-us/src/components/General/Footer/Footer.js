@@ -21,10 +21,19 @@ const Footer = () => {
                   Blog
                 </a>
               </Card.Text>
-              <Card.Text className="contact-us-container info">
+              <Card.Text className="service-container info">
                 <p className="h4-text">Service</p>
-                <a href="mailto:help@wavely.com" className="contact-info">
-                  help@wavely.com
+                <a
+                  href="https://www.wavely.com/?tab=0"
+                  className="contact-info product-intro"
+                >
+                  Product Introduction
+                </a>
+                <a
+                  href="https://www.wavely.com/?tab=1"
+                  className="contact-info onboard-employer"
+                >
+                  Onboard as Employer
                 </a>
               </Card.Text>
             </div>
