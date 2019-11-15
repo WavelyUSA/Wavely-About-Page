@@ -29,7 +29,7 @@ const Footer = () => {
               </Card.Text>
             </div>
             <Card.Text className="info address-info-container">
-              <p className="h4-text">Address</p>
+              <p className="h4-text">Contact Us</p>
               <p className="address-info">
                 10250 Constellation Blvd, Suite 100
               </p>
@@ -73,22 +73,32 @@ const Footer = () => {
       </div>
       <Card.Text className="terms-container">
         <span className="bottom-footer-container">
-          <a a href="https://www.wavely.com">
-            <img
-              src={require("../../images/wavely-seal.png")}
-              alt="wavely-seal"
-              className="wavely-seal-img"
-            ></img>
-          </a>
-          <a
-            href="https://www.wavely.com/privacy"
-            className="footer-bottom-text"
-          >
-            Privacy Use
-          </a>
-          <a href="https://www.wavely.com/terms" className="footer-bottom-text">
-            Term of Service
-          </a>
+          <div className="footer-container1">
+            <a a href="https://www.wavely.com">
+              <img
+                src={require("../../images/wavely-seal.png")}
+                alt="wavely-seal"
+                className="wavely-seal-img"
+              ></img>
+            </a>
+            <a
+              href="https://www.wavely.com/privacy"
+              className="footer-bottom-text privacy-use"
+            >
+              Privacy Use
+            </a>
+          </div>
+          <div className="footer-container2">
+            <a
+              href="https://www.wavely.com/terms"
+              className="footer-bottom-text"
+            >
+              Terms of Service
+            </a>
+            <a href="mailto:help@wavely.com" className="contact-info">
+              help@wavely.com
+            </a>
+          </div>
         </span>
       </Card.Text>
     </Card>

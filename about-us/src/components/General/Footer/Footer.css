@@ -6,10 +6,12 @@
   font-family: "Roboto";
   display: block;
   border-radius: 0;
+  padding-top: 30px;
 }
 
 .info-big-div {
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+  height: 175px;
 }
 
 .info-small-container {
@@ -17,13 +19,36 @@
   font-size: 12px;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
     Helvetica Neue, arial, verdana, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  font-size: 10px;
+}
+
+h4 {
+  margin-bottom: 0.5em;
 }
 
 .h4-text {
   font-size: 1.5em;
-  /* margin-bottom: 1.5em; */
   font-weight: 300;
   line-height: 1;
+  margin-bottom: 0.5em;
+}
+
+.address-info-container {
+  width: 55%;
+}
+.mobile-container {
+  height: 95%;
+}
+
+.la-address {
+  margin-bottom: 1em;
+}
+.contact-us-container {
+  margin-top: -0.5em;
 }
 
 .address-info {
@@ -47,11 +72,22 @@
   font-weight: lighter;
 }
 
+.social-media-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  order: 1;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .social-media-img {
   display: inline-block;
   margin: -12px 0 5px;
   border-radius: 100%;
   cursor: pointer;
+  width: 44px;
+  height: 44px;
 }
 
 .social-media-img:hover {
@@ -62,6 +98,9 @@
 .terms-container {
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
     Helvetica Neue, arial, verdana, sans-serif;
+  font-size: 9.5px;
+  padding: 20px 0;
+  width: 100%;
 }
 
 .about-us-container {
@@ -70,12 +109,42 @@
 }
 
 .wavely-seal-img {
-  margin-bottom: 0.5em;
+  width: 88px;
+  height: 22px;
 }
 
 .footer-bottom-text {
   color: hsla(0, 0%, 100%, 0.5);
   font-weight: lighter;
+}
+
+.bottom-footer-container {
+  margin-left: 2.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.footer-container2,
+.footer-container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-container1 {
+  width: 185px;
+}
+
+.footer-container2 {
+  justify-content: space-between;
+  width: 206px;
+}
+
+.privacy-use {
+  margin-top: 0.1em;
+  margin-left: 40px;
 }
 
 .about-us-info:hover,
@@ -87,75 +156,12 @@
   text-decoration: none;
 }
 
-@media only screen and (min-width: 320px) {
-  .footer {
-    padding-top: 30px;
-  }
-  .info-big-div {
-    height: 175px;
-  }
-  .info-small-container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 100%;
-    font-size: 10px;
-  }
-  .social-media-logos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    order: 1;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .social-media-img {
-    width: 44px;
-    height: 44px;
-  }
-  .terms-container {
-    font-size: 9.5px;
-    padding: 12px 0;
-    width: 100%;
-  }
-  .wavely-seal-img {
-    width: 85px;
-    height: 24px;
-  }
-  .bottom-footer-container {
-    margin-left: 6%;
-  }
-  .footer-bottom-text {
-    margin-left: 1.5em;
-    color: hsla(0, 0%, 100%, 0.5);
-    font-weight: lighter;
-  }
-  .address-info-container {
-    width: 55%;
-  }
-  .mobile-container {
-    height: 95%;
-  }
-  h4 {
-    margin-bottom: 0.5em;
-  }
-  .h4-text {
-    margin-bottom: 0.5em;
-  }
-  .company-contact-address-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    order: 2;
-    margin-top: 1em;
-  }
-  .la-address {
-    margin-bottom: 1em;
-  }
-  .contact-us-container {
-    margin-top: -0.5em;
-  }
+.company-contact-address-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  order: 2;
+  margin-top: 1em;
 }
 
 @media only screen and (min-width: 375px) {
