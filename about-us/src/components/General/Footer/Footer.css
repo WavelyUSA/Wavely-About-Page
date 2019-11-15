@@ -6,16 +6,14 @@
   font-family: "Roboto";
   display: block;
   border-radius: 0;
-  padding-top: 30px;
+  padding: 4em 0 3.5em 0;
 }
 
 .info-big-div {
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
-  height: 175px;
 }
 
 .info-small-container {
-  margin: 0 auto 48px;
   font-size: 12px;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
     Helvetica Neue, arial, verdana, sans-serif;
@@ -23,7 +21,6 @@
   justify-content: space-around;
   flex-direction: column;
   width: 100%;
-  font-size: 10px;
 }
 
 h4 {
@@ -34,33 +31,44 @@ h4 {
   font-size: 1.5em;
   font-weight: 300;
   line-height: 1;
-  margin-bottom: 0.5em;
+  margin-bottom: 20px;
 }
 
 .address-info-container {
-  width: 55%;
+  width: 209px;
+  margin-top: 3em;
 }
 .mobile-container {
-  height: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 254px;
+}
+
+.la-address,
+.san-mateo-address {
+  line-height: 17px;
 }
 
 .la-address {
   margin-bottom: 1em;
-}
-.contact-us-container {
-  margin-top: -0.5em;
 }
 
 .address-info {
   margin: 0;
   color: hsla(0, 0%, 100%, 0.5);
   font-weight: lighter;
+  line-height: 25px;
 }
 
 .about-us-info,
 .blog-link {
   color: hsla(0, 0%, 100%, 0.5);
   font-weight: lighter;
+}
+
+.about-us-info {
+  margin-bottom: 10px;
 }
 
 .blog-link {
@@ -99,18 +107,19 @@ h4 {
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
     Helvetica Neue, arial, verdana, sans-serif;
   font-size: 9.5px;
-  padding: 20px 0;
+  padding-top: 3em;
   width: 100%;
 }
 
 .about-us-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 0;
 }
 
 .wavely-seal-img {
-  width: 88px;
-  height: 22px;
+  width: 109px;
+  height: 27px;
 }
 
 .footer-bottom-text {
@@ -124,6 +133,7 @@ h4 {
   flex-direction: column;
   justify-content: space-between;
   height: 50px;
+  font-size: 12px;
 }
 
 .footer-container2,
@@ -131,15 +141,16 @@ h4 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .footer-container1 {
-  width: 185px;
+  width: 220px;
 }
 
 .footer-container2 {
-  justify-content: space-between;
-  width: 206px;
+  width: 254px;
+  margin-top: 2em;
 }
 
 .privacy-use {
@@ -158,25 +169,18 @@ h4 {
 
 .company-contact-address-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
   order: 2;
-  margin-top: 1em;
+  padding: 3em 2.5em 3em 2.5em;
 }
 
-@media only screen and (min-width: 375px) {
-  .info-big-div {
-    height: 165px;
-  }
-  .bottom-footer-container {
-    margin-left: 6.5%;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .bottom-footer-container {
-    margin-left: 8%;
-  }
+.twitter-logo {
+  width: 36px;
+  height: 36px;
+  margin-right: 2px;
+  position: relative;
+  bottom: -5px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -216,9 +220,9 @@ h4 {
     margin-left: 7%;
   }
   .mobile-container {
-    width: 65%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .contact-us-container {
     margin-top: 0;

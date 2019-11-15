@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="company-contact-address-container">
             <div className="mobile-container">
               <Card.Text className="about-us-container info">
-                <p className="h4-text">Company</p>
+                <p className="h4-text">Info</p>
                 <a
                   href="https://www.wavely.com/about"
                   className="about-us-info"
@@ -22,7 +22,7 @@ const Footer = () => {
                 </a>
               </Card.Text>
               <Card.Text className="contact-us-container info">
-                <p className="h4-text">Contact Us</p>
+                <p className="h4-text">Service</p>
                 <a href="mailto:help@wavely.com" className="contact-info">
                   help@wavely.com
                 </a>
@@ -30,16 +30,26 @@ const Footer = () => {
             </div>
             <Card.Text className="info address-info-container">
               <p className="h4-text">Contact Us</p>
-              <p className="address-info">
-                10250 Constellation Blvd, Suite 100
-              </p>
-              <p className="address-info la-address">Los Angeles, CA 90067</p>
-
-              <p className="address-info">55 East 3rd Avenue</p>
-              <p className="address-info">San Mateo, CA 94401</p>
+              <div className="la-address">
+                <p className="address-info">
+                  10250 Constellation Blvd, Suite 100
+                </p>
+                <p className="address-info">Los Angeles, CA 90067</p>
+              </div>
+              <div className="san-mateo-address">
+                <p className="address-info">55 East 3rd Avenue</p>
+                <p className="address-info">San Mateo, CA 94401</p>
+              </div>
             </Card.Text>
           </div>
           <Card.Text className="social-media-logos">
+            <a href="https://twitter.com/wavely_app">
+              <img
+                src={require("../../images/twitter-logo.png")}
+                alt="twitter-logo"
+                className="social-media-img twitter-logo"
+              />
+            </a>
             <a href="https://www.instagram.com/wavelyapp/">
               <img
                 src={require("../../images/instagram-logo.png")}
@@ -58,19 +68,13 @@ const Footer = () => {
               <img
                 src={require("../../images/linkedin-logo.png")}
                 alt="linkedin-logo"
-                className="social-media-img twitter-logo"
-              />
-            </a>
-            <a href="https://twitter.com/wavely_app">
-              <img
-                src={require("../../images/twitter-logo.png")}
-                alt="twitter-logo"
                 className="social-media-img"
               />
             </a>
           </Card.Text>
         </div>
       </div>
+
       <Card.Text className="terms-container">
         <span className="bottom-footer-container">
           <div className="footer-container1">
