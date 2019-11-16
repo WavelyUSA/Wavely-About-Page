@@ -22,16 +22,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 230px;
+  width: 200px;
 }
 
 .blog-href,
 .homepage-href,
 .about-href {
-  font-size: 14px;
+  font-size: 12px;
   font-family: "PingFangSC-Semibold";
   font-weight: 600;
   color: hsla(0, 0%, 100%, 0.5);
+  margin-top: 3px;
 }
 
 .blog-href:hover,
@@ -39,4 +40,16 @@
 .about-href:hover {
   text-decoration: none;
   color: #f7f7ff;
+}
+
+@media only screen and (min-width: 375px) {
+  .blog-href,
+  .homepage-href,
+  .about-href {
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .navbar-links {
+    width: 230px;
+  }
 }

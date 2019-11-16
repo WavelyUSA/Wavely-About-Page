@@ -9,18 +9,6 @@ const Footer = () => {
         <div className="info-small-container">
           <div className="company-contact-address-container">
             <div className="mobile-container">
-              <Card.Text className="about-us-container info">
-                <p className="h4-text">Info</p>
-                <a
-                  href="https://www.wavely.com/about"
-                  className="about-us-info"
-                >
-                  About Us
-                </a>
-                <a href="https://blog.wavely.com" className="blog-link">
-                  Blog
-                </a>
-              </Card.Text>
               <Card.Text className="service-container info">
                 <p className="h4-text">Service</p>
                 <a
@@ -34,6 +22,18 @@ const Footer = () => {
                   className="contact-info onboard-employer"
                 >
                   Onboard as Employer
+                </a>
+              </Card.Text>
+              <Card.Text className="about-us-container info">
+                <p className="h4-text">Info</p>
+                <a
+                  href="https://www.wavely.com/about"
+                  className="about-us-info"
+                >
+                  About Us
+                </a>
+                <a href="https://blog.wavely.com" className="blog-link">
+                  Blog
                 </a>
               </Card.Text>
             </div>
@@ -100,15 +100,24 @@ const Footer = () => {
             >
               Privacy Use
             </a>
+            <a
+              href="https://www.wavely.com/privacy"
+              className="footer-bottom-text service-terms1"
+            >
+              Terms of Service
+            </a>
           </div>
           <div className="footer-container2">
             <a
               href="https://www.wavely.com/terms"
-              className="footer-bottom-text"
+              className="footer-bottom-text service-terms2"
             >
               Terms of Service
             </a>
-            <a href="mailto:help@wavely.com" className="contact-info">
+            <a
+              href="mailto:help@wavely.com"
+              className="contact-info email-contact"
+            >
               help@wavely.com
             </a>
           </div>
