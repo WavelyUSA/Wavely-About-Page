@@ -10,7 +10,7 @@ const imgURLs = [
     quote:
       "“Blazing new trails requires grit, resilience, and most importantly trusting yourself. When you believe in yourself, you’ll realize your greatest dreams - and inspire others to do the same.”",
     linkedinURL: "https://www.linkedin.com/in/danie-l-008a4313a/",
-    position: "CEO"
+    position: "Chief Executive Officer"
   },
   {
     path: require("../images/Profile/Amber.png"),
@@ -19,7 +19,7 @@ const imgURLs = [
     quote:
       "“Tomorrow is too late & yesterday is already over. Right now is the only right moment- so start now!“",
     linkedinURL: "https://www.linkedin.com/in/amber-srivastava-2479198/",
-    position: "Director, BD"
+    position: "BD Director"
   },
   {
     path: require("../images/Profile/Dave.png"),
@@ -28,7 +28,7 @@ const imgURLs = [
     quote:
       "“Working at Wavely is a blast because of all my great co-workers. Everyday we are working together to solve problems market pain points, advance our product, and increase our market share. Our office space in San Mateo is open and full of natural light, standing desks, and we are very pet-friendly.”",
     linkedinURL: "https://www.linkedin.com/in/david-kuo-81117351/",
-    position: "Senior Director, BD"
+    position: "Senior BD Director"
   },
   {
     path: require("../images/Profile/Matei.png"),
@@ -37,7 +37,7 @@ const imgURLs = [
     quote:
       "”You can do not just twice as much but 200 times as much when you have great teammates.”",
     linkedinURL: "https://www.linkedin.com/in/matei-andrei/",
-    position: "Manager, BD"
+    position: "BD Manager"
   },
   {
     path: require("../images/Profile/Elif.png"),
@@ -55,7 +55,7 @@ const imgURLs = [
     quote:
       "”If you are doing what you like, you will see yourself being passionate, energetic, and curious about your surroundings. You won't be able to stop thinking even when you are resting. This will motivate you to grow rapidly with the company you work for.”",
     linkedinURL: "https://www.linkedin.com/in/tingting-lin-19737130/",
-    position: "Manager, HR"
+    position: "HR Manager"
   },
   {
     path: require("../images/Profile/Sophie.png"),
@@ -105,7 +105,7 @@ const imgURLs = [
     quote:
       "“Stay Hungry. Stay Foolish. Push yourself. Stay eager to learn, take risks, and keep trying to do what others say can’t be done.“",
     linkedinURL: "https://www.linkedin.com/in/jingwei940704/",
-    position: "Associate, BD"
+    position: "BD Associate"
   },
   {
     path: require("../images/Profile/Summer.png"),
