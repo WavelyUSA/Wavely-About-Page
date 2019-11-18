@@ -285,6 +285,7 @@ h4 {
   .social-media-logos {
     order: 2;
     width: 184px;
+    height: 100%;
   }
 
   .social-media-img {

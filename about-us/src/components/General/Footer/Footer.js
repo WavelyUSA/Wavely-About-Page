@@ -52,28 +52,31 @@ const Footer = () => {
             </Card.Text>
           </div>
           <Card.Text className="social-media-logos">
-            <a href="https://twitter.com/wavely_app">
+            <a href="https://twitter.com/wavely_app" className="href">
               <img
                 src={require("../../images/twitter-logo.png")}
                 alt="twitter-logo"
                 className="social-media-img twitter-logo"
               />
             </a>
-            <a href="https://www.instagram.com/wavelyapp/">
+            <a href="https://www.instagram.com/wavelyapp/" className="href">
               <img
                 src={require("../../images/instagram-logo.png")}
                 alt="instagram-logo"
                 className="social-media-img"
               />
             </a>
-            <a href="https://www.facebook.com/wavelyapp">
+            <a href="https://www.facebook.com/wavelyapp" className="href">
               <img
                 src={require("../../images/facebook-logo.png")}
                 alt="facebook-logo"
                 className="social-media-img"
               />
             </a>
-            <a href="https://www.linkedin.com/company/wavelyapp">
+            <a
+              href="https://www.linkedin.com/company/wavelyapp"
+              className="href"
+            >
               <img
                 src={require("../../images/linkedin-logo.png")}
                 alt="linkedin-logo"
