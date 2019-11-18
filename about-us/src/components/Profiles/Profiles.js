@@ -112,6 +112,20 @@ const imgURLs = [
     id: 13,
     name: "Summer Xue",
     position: "Marketing Specialist"
+  },
+  {
+    path: require("../images/Profile/Kavya.png"),
+    id: 14,
+    name: "Kavya Sreedhar",
+    linkedinURL: "https://www.linkedin.com/in/kavyasreedhar/",
+    position: "Assistant BD Manager"
+  },
+  {
+    path: require("../images/Profile/Leonard.png"),
+    id: 15,
+    name: "Leonard Zhang",
+    linkedinURL: "https://www.linkedin.com/in/zhuofanzhang1996/",
+    position: "Business Data Analyst"
   }
 ];
 
