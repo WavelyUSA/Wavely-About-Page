@@ -87,7 +87,7 @@ const imgURLs = [
     quote:
       "“Don’t Be Too Timid And Squeamish About Your Actions. All Life Is An Experiment. The More Experiments You Make The Better.”",
     linkedinURL: "https://www.linkedin.com/in/alexazhao/",
-    position: "Senior Marketing Specialist"
+    position: "Marketing Specialist"
   },
   {
     path: require("../images/Profile/Cindy.png"),
