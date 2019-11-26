@@ -16,6 +16,7 @@ class ProfileCard extends React.Component {
           href={this.props.linkedinURL}
           target="_blank"
           rel="noopener noreferrer"
+          className="profile-img-container"
         >
           <img
             src={require("../../images/linkedin-logo.png")}
