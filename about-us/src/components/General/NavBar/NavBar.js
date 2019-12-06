@@ -16,11 +16,11 @@ const NavBar = () => {
         <a className="blog-href" href="https://blog.wavely.com/">
           Blog
         </a>
-        <a className="homepage-href" href="https://www.wavely.com/">
-          Home
-        </a>
         <a className="about-href" href="https://about.wavely.com/">
           About
+        </a>
+        <a className="homepage-href" href="https://www.wavely.com/">
+          Home
         </a>
       </div>
     </Navbar>
