@@ -22,15 +22,6 @@ const imgURLs = [
     position: "Business Development Director"
   },
   {
-    path: require("../images/Profile/Dave.png"),
-    id: 3,
-    name: "David Kuo",
-    quote:
-      "“Working at Wavely is a blast because of all my great co-workers. Everyday we are working together to solve problems market pain points, advance our product, and increase our market share. Our office space in San Mateo is open and full of natural light, standing desks, and we are very pet-friendly.”",
-    linkedinURL: "https://www.linkedin.com/in/david-kuo-81117351/",
-    position: "Senior Business Development Director"
-  },
-  {
     path: require("../images/Profile/Matei.png"),
     id: 4,
     name: "Matei Andrei",
