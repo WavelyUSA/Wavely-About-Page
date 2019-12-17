@@ -102,6 +102,7 @@ const imgURLs = [
     path: require("../images/Profile/Summer.png"),
     id: 13,
     name: "Summer Xue",
+    linkedinURL: "https://www.linkedin.com/in/chun-xue-9b4088150/",
     position: "Marketing Specialist"
   },
   {
