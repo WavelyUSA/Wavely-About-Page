@@ -1,10 +1,10 @@
 .banner-container2 {
-  text-align: center;
   width: 100%;
 }
 
-.banner-img2 {
-  width: 97%;
+.video-react {
+  width: 97% !important;
+  margin-left: 4px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -12,13 +12,16 @@
     display: block;
     margin: auto;
   }
-  .banner-img2 {
-    width: 301px;
+  .video-react {
+    width: 301px !important;
+    height: 200px !important;
+    margin-left: 0 !important;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .banner-img2 {
-    width: 401px;
+  .video-react {
+    width: 401px !important;
+    height: 250px !important;
   }
 }
