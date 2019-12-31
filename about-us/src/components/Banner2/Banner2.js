@@ -9,7 +9,7 @@ function Banner2() {
         playsInline
         poster="./video-thumbnail.png"
         src="wavely-team-video.mp4"
-      />
+      ></Player>
     </div>
   );
 }
