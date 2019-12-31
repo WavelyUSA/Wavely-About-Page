@@ -4,7 +4,8 @@
 
 .video-react {
   width: 97% !important;
-  margin-left: 4px;
+  margin-left: 4px !important;
+  padding: 0 !important;
 }
 
 .video-react-video {
