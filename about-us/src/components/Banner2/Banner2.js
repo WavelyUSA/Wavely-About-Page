@@ -8,7 +8,7 @@ function Banner2() {
       <Player
         playsInline
         poster="./video-thumbnail.png"
-        src="wavely-team-video.mp4"
+        src="./wavely-team-video.mp4"
       ></Player>
     </div>
   );
