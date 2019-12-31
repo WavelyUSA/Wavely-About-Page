@@ -1,15 +1,9 @@
 import React from "react";
 import "./Banner2.css";
-import { Player } from "video-react";
 
 function Banner2() {
   return (
     <div className="banner-container2">
-      {/* <Player
-        playsInline
-        poster="./video-thumbnail.png"
-        src="https://youtu.be/b16sBk9HD1Q"
-      ></Player> */}
       <iframe
         src="https://www.youtube.com/embed/b16sBk9HD1Q"
         frameborder="0"

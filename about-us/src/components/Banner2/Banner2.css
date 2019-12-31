@@ -3,16 +3,6 @@
   text-align: center;
 }
 
-.video-react {
-  width: 97% !important;
-  margin-left: 4px !important;
-  padding: 0 !important;
-}
-
-.video-react-video {
-  width: 100% !important;
-}
-
 iframe {
   width: 97%;
   height: 300px;
@@ -24,12 +14,6 @@ iframe {
     display: block;
     margin: auto;
   }
-  .video-react {
-    width: 301px !important;
-    height: 200px !important;
-    margin-left: 0 !important;
-  }
-
   iframe {
     height: 250px;
     width: 320px;
@@ -38,11 +22,6 @@ iframe {
 }
 
 @media only screen and (min-width: 1024px) {
-  .video-react {
-    width: 401px !important;
-    height: 250px !important;
-  }
-
   iframe {
     width: 350px;
   }
