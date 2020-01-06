@@ -46,8 +46,8 @@ const Footer = () => {
                 <p className="address-info">Los Angeles, CA 90067</p>
               </div>
               <div className="san-mateo-address">
-                <p className="address-info">55 East 3rd Avenue</p>
-                <p className="address-info">San Mateo, CA 94401</p>
+                <p className="address-info">2955 Campus Dr #110</p>
+                <p className="address-info">San Mateo, CA 94403</p>
               </div>
             </Card.Text>
           </div>
