@@ -8,7 +8,7 @@ function Banner2() {
         src="https://www.youtube.com/embed/b16sBk9HD1Q"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowfullscreen="true"
         title="wavely-team-video"
       ></iframe>
     </div>

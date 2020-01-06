@@ -23,12 +23,19 @@ const imgURLs = [
   },
   {
     path: require("../images/Profile/Matei.png"),
-    id: 4,
+    id: 3,
     name: "Matei Andrei",
     quote:
       "”You can do not just twice as much but 200 times as much when you have great teammates.”",
     linkedinURL: "https://www.linkedin.com/in/matei-andrei/",
     position: "Business Development Manager"
+  },
+  {
+    path: require("../images/Profile/Vince.png"),
+    id: 4,
+    name: "Vincent Bi",
+    linkedinURL: "https://www.linkedin.com/in/han-vincent-bi-7305618b/",
+    position: "Product Manager"
   },
   {
     path: require("../images/Profile/Elif.png"),
@@ -110,7 +117,7 @@ const imgURLs = [
     id: 14,
     name: "Kavya Sreedhar",
     linkedinURL: "https://www.linkedin.com/in/kavyasreedhar/",
-    position: "Assistant BD Manager"
+    position: "Business Development Manager"
   },
   {
     path: require("../images/Profile/Leonard.png"),
