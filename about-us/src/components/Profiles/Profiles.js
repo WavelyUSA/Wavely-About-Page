@@ -125,6 +125,13 @@ const imgURLs = [
     name: "Leonard Zhang",
     linkedinURL: "https://www.linkedin.com/in/zhuofanzhang1996/",
     position: "Business Data Analyst"
+  },
+  {
+    path: require("../images/Profile/Amannda.png"),
+    id: 16,
+    name: "Amannda Armanini",
+    linkedinURL: "https://www.linkedin.com/in/amanndaarmanini/",
+    position: "Marketing Specialist"
   }
 ];
 
