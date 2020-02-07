@@ -33,6 +33,13 @@ serve -s build
 
 ## Server Admin Testing And Access
 
+Accessing from Greg's Computer
+
+1. 1. Open terminal, and cd into your ssh folder
+2. Log in as user with ```ssh greg@167.172.201.122```
+3. Password: Shikamaru#2
+4. Follow steps 3 and after listed below. If it asks you to enter Github password, password is Wavely#123
+
 To manually update build files as an admin, follow the steps below:
 
 1. Open terminal, and cd into your ssh folder
