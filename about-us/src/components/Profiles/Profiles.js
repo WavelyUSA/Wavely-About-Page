@@ -19,7 +19,7 @@ const imgURLs = [
     quote:
       "“Tomorrow is too late & yesterday is already over. Right now is the only right moment- so start now!“",
     linkedinURL: "https://www.linkedin.com/in/amber-srivastava-2479198/",
-    position: "Business Development Director"
+    position: "VP,Business Development and Marketing"
   },
   {
     path: require("../images/Profile/Matei.png"),
@@ -62,15 +62,15 @@ const imgURLs = [
     linkedinURL: "https://www.linkedin.com/in/sophie-eden-silicon-valley/",
     position: "Marketing Specialist"
   },
-  {
-    path: require("../images/Profile/Greg.png"),
-    id: 8,
-    name: "Greg Tang",
-    quote:
-      "“Understand to achieve anything requires faith and belief in yourself, vision, hard work, determination, and dedication. Remember all things are possible for those who believe.“",
-    linkedinURL: "https://www.linkedin.com/in/gregory-tang-041127153",
-    position: "Software Engineer"
-  },
+  // {
+  //   path: require("../images/Profile/Greg.png"),
+  //   id: 8,
+  //   name: "Greg Tang",
+  //   quote:
+  //     "“Understand to achieve anything requires faith and belief in yourself, vision, hard work, determination, and dedication. Remember all things are possible for those who believe.“",
+  //   linkedinURL: "https://www.linkedin.com/in/gregory-tang-041127153",
+  //   position: "Software Engineer"
+  // },
   // {
   //   path: require("../images/Profile/Daniela.png"),
   //   id: 9,
@@ -96,15 +96,15 @@ const imgURLs = [
     linkedinURL: "https://www.linkedin.com/in/qiyue-chen-080206/",
     position: "Marketing Specialist"
   },
-  {
-    path: require("../images/Profile/William.png"),
-    id: 12,
-    name: "William Wu",
-    quote:
-      "“Stay Hungry. Stay Foolish. Push yourself. Stay eager to learn, take risks, and keep trying to do what others say can’t be done.“",
-    linkedinURL: "https://www.linkedin.com/in/jingwei940704/",
-    position: "Business Development Associate"
-  },
+  // {
+  //   path: require("../images/Profile/William.png"),
+  //   id: 12,
+  //   name: "William Wu",
+  //   quote:
+  //     "“Stay Hungry. Stay Foolish. Push yourself. Stay eager to learn, take risks, and keep trying to do what others say can’t be done.“",
+  //   linkedinURL: "https://www.linkedin.com/in/jingwei940704/",
+  //   position: "Business Development Associate"
+  // },
   {
     path: require("../images/Profile/Summer.png"),
     id: 13,
@@ -127,12 +127,19 @@ const imgURLs = [
     position: "Business Data Analyst"
   },
   {
-    path: require("../images/Profile/Amannda.png"),
+    path: require("../images/Profile/Shiya.jpeg"),
     id: 16,
-    name: "Amannda Armanini",
-    linkedinURL: "https://www.linkedin.com/in/amanndaarmanini/",
-    position: "Marketing Specialist"
-  }
+    name: "Shiya Luo",
+    linkedinURL: "",
+    position: "Product Lead"
+  },
+  // {
+  //   path: require("../images/Profile/Amannda.png"),
+  //   id: 16,
+  //   name: "Amannda Armanini",
+  //   linkedinURL: "https://www.linkedin.com/in/amanndaarmanini/",
+  //   position: "Marketing Specialist"
+  // }
 ];
 
 class Carousel extends React.Component {
