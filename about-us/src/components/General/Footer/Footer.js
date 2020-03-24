@@ -27,7 +27,7 @@ const Footer = () => {
               <Card.Text className="about-us-container info">
                 <p className="h4-text">Info</p>
                 <a
-                  href="https://www.wavely.com/about"
+                  href="https://about.wavely.com/"
                   className="about-us-info"
                 >
                   About Us
